@@ -22,7 +22,7 @@ Effort profile: `▁▁▂▁▁▁▁▁▁▁▁▁`
 
 **0.6.** How will your grade for this course be determined? Have a quick read through the [Prospectus description](https://studiegids.universiteitleiden.nl/courses/113158/python-for-linguists) for this course.
 
-**0.7.** Have a look at the [schedule](../). Which of the many [exercise sections](../exercises/) are not covered by the homework, hence optional? Also have a look at the class topics and the additional [coding quests](../quests/): which ones seem interesting to you?
+**0.7.** Have a look at the [schedule](../README.md). Which of the many [exercise sections](../exercises/) are not covered by the homework, hence optional? Also have a look at the class topics and the additional [coding quests](../quests/): which ones seem interesting to you?
 
 **0.8.** Prior to the initial class please already install the **PyCharm IDE** on your laptop: https://www.jetbrains.com/pycharm/ . The 'community edition' is freely available for every operating system, and more than sufficient for our needs. Installation is user-friendly, and you can install it without changing any of the default settings (or tweak them if you know what they do). 
 
