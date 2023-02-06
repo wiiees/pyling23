@@ -49,7 +49,6 @@ Problem decomposition
 Hettinger's (?)  "Defining new words that make it easier to tell the computer what to do."
 
 
-
 #### What is Python?
 
 Compiled vs. interpreted programming language implementations.
@@ -62,10 +61,9 @@ Compiled vs. interpreted programming language implementations.
 
 - Exercises
 - Solutions (one week delay)
-- Quests
+- Projects
 - Classes
 - Quizzes
-- Adventures
 - Submittables ✉️
 
 All files on Github; submit submittables through Brightspace.
