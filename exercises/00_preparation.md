@@ -48,7 +48,7 @@ _If you somehow cannot install it, please consider asking your fellow students f
 
 -------
 
-**_The homework exercises for week 1 end here (don't forget to submit those marked by '✉️'!)._**
+**_The homework exercises for week 1 end here (nothing to submit this week)._**
 
 -------
 
