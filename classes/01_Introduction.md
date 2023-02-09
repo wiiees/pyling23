@@ -129,7 +129,7 @@ for student in students:
 #### Using ChatGPT?
 Meh. For the regular homework, consider the effect on your learning, and try to exhaust other options first (in particular: collaborating). Solutions will be made available with one week delay, and are designed to be exactly in tune with what you are supposed to know at that point.
 
-_Don't:_ Use ChatGPT for submittables _unless_ you are _really_ stuck for a while and have exhausted other options.
+_Don't:_ Use ChatGPT for submittables _unless_ you are _really_ stuck for a while and have exhausted other options. In that case though, to avoid potential plagiarism/fraud, make sure to add a comment to your code explaining where you got stuck and how ChatGPT helped you.
 
 _Do:_ Explore how ChatGPT can help you learn more. For instance, for exercises that you have already solved yourself, ask ChatGPT to solve it as well and compare your solutions. Or give ChatGPT the exercise plus your own solution, and ask ChatGPT what it would improve about your code. Be aware that ChatGPT's suggestions may use techniques that we will learn only later in the course, or that we won't cover in this course at all.
 
