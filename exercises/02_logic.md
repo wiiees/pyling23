@@ -2,7 +2,7 @@
 
 ## 2. Logic (`and`, `or`, `==`, `=>`, ...)
 
-Effort profile: `▂▁▁▁▁▂▁▁▁▁▁▁▂▂▄▅▁▄▅▂▁▁▂▂▂▁▁▁▁▂` 
+Effort profile: `▂▁▁▁▁▂▁▁▁▁▁▁▂▂▄▅▁▄▅▂▁▁▂▂▄▅▄▅▁▂▁▁▁▂` 
 
 
 
@@ -59,14 +59,14 @@ Effort profile: `▂▁▁▁▁▂▁▁▁▁▁▁▂▂▄▅▁▄▅▂▁
 
 **2.16.** If in the previous exercise you had to try the same expressions a couple of times (with different truth values assigned to `p` and `q`), then hopefully you remembered to use the up arrow in the Console to cycle through previous commands.
 
-**2.17.** ⭐⭐ Do the same, but now with three variables `p`, `q` and `r` to play with: can you assign truth values to them in a way that makes the following equivalences come out as `False`?
+**2.17.** ⭐⭐ Do the same, but now with three variables `p`, `q` and `r` to play with: can you assign truth values to them in a way that makes the following equivalences come out as `False`? (This is tricky! You can either try to reason your way towards the solution, or simply try out different possible variable assignments.)
 1. `p or (q and r) == (p or q) and r`
 2. `p and (q and r) == (p and q) and r`
 3. `p or (q or r) == (p or q) or r`
 4. `p or (q and r) == (p or q) and (p or r)`
 5. `p and (q or r) == (p and q) or (p and r)`
 
-**2.18.** ⭐ The previous exercises revealed that in some cases the parentheses don't seem to make a difference. Can you safely omit them in those cases? What if you omit them in the cases where it _does_ make a difference? Try to predict the result and then test it with Python. Can you explain what you see with the help of specific operator precedence rules (https://docs.python.org/3/reference/expressions.html#operator-precedence)?
+**2.18.** ⭐ Some of the previous exercises revealed that in some cases the parentheses don't seem to make a difference. Can you safely omit them in those cases? What if you omit them in the cases where it _does_ make a difference? Try to predict the result and then test it with Python. Can you explain what you see with the help of specific operator precedence rules (https://docs.python.org/3/reference/expressions.html#operator-precedence)?
 
 
 **2.19.** Keywords like `and` and `or` are special, reserved terms that are handled by the syntactic parser _before_ any Python code is interpreted. Because of this, they cannot be used as ordinary variables, e.g., assigned new values. Demonstrate this by trying to assign something to a variable named `and`.
@@ -77,20 +77,22 @@ Effort profile: `▂▁▁▁▁▂▁▁▁▁▁▁▂▂▄▅▁▄▅▂▁
 
 **2.20.** In contrast to keywords, built-ins (e.g., functions like `max`) _are_ assigned to ordinary variables, hence these can also be reassigned new values. For instance, try `max = 5` or `min = 7`. If you do this, what happens if you subsequently try to get the maximum or minimum of some numbers like you did earlier, e.g., `max(3541, 7312)`? Overriding built-ins like this is not a good idea. (Consider restarting the Console to prevent confusing your future self.)
 
-**2.21.** ⭐ Many types of objects that are not themselves booleans can nevertheless be evaluated to `True` or `False` when placed in a 'boolean context'. This is the case for numbers, for instance, and we will learn about other objects later. Try to understand which numbers are **Truthy** (i.e., get interpreted as `True` when placed in a boolean context) and which are **Falsy**, by predicting and testing the resulting truth values of the following expressions: 
+**2.21.** ⭐ Many types of objects that are not themselves booleans can nevertheless be evaluated to `True` or `False` when placed in a 'boolean context' such as the argument of the `not` operator. This is the case for numbers, for instance, and we will learn about other objects like strings later. Try to understand which numbers are **Truthy** (i.e., get interpreted as `True` when placed in a boolean context) and which are **Falsy**, by predicting and testing the resulting truth values of the following expressions:
 1. `not 1`
-2. `1 and 3`
+2. `not 0`
 3. `not -1`
-4. `not 0`
-5. `1 or -1`
-6. `0 or not 0`
-7. `not 6.3`
-8. `3 or 0.1`
-7. `not 6.3`
+4. `not 0.0`
+5. `not 6.3`
 
 **2.22.** ⭐ Given the foregoing, can you predict the value of `not (0 + 1)` vs. `not 0 + 1`? Verify your prediction, and compare it with `not (False or True)` vs. `not False or True`. Make sure you understand this potentially puzzling behavior (see again the _operator precedence_ table).
 
-**2.23.** ⭐ What do you predict these expressions to evaluate to? If you make a mistake, make sure you understand why you had the wrong expectation! (There is something purposefully misleading about some of these...)
+**2.23.** ⭐⭐ Similar to `not`, the boolean operators `and` and `or` create a 'boolean' context, in which numbers end up being interpreted as 'truthy' or 'falsy'. But in Python, `and` and `or` they are not strictly boolean. If `p` as well as `q` evaluate to `False`, then `p and q` evaluates to False; but if `p` as well as `q` evaluate to `True` then `p and q` evaluates to `q` -- which happens to be `True` if `q` was itself a boolean, but we have seen that `q` can also be a number. Illustrate this not-purely-boolean behavior of `and` by comparing `0 and 0`, `0 and 3`, `3 and 0`, `3 and 6` and `6 and 3`.
+
+**2.24.** ⭐⭐ Does `or` display similarly non-purely-boolean behavior? Compare `0 or 0`, `0 or 3`, `3 or 0`, `3 or 6` and `6 or 3`, and try to identify the underlying rule (i.e., fill in "if `p` as well as `q` evaluate to True, then `p or q` evaluates to [...]").
+
+**2.25.** It is easy to mistakenly type `&` instead of `and`. Are they equivalent? Try comparing `True and False` to `True & False`, and other variants. If your answer is 'yes', what about numbers, which previously you learned can be Truthy and Falsy too? For instance, compare `3 and 5` to `3 & 5`, and also try different combinations of numbers. (Unless you know a bit about representating numbers in binary, like `1101` meaning 13, it will be virtually impossible for you to figure out the pattern without looking it up in the documentation.) _In general, for boolean logic dealing with truth values, use only `and`, not `&`._
+
+**2.26.** ⭐ What do you predict these expressions to evaluate to? If you make a mistake, make sure you understand why you had the wrong expectation! (There is something purposefully misleading about some of these...)
 1. `3 == 3`
 2. `3 != 3`
 3. `3 >= 4`
@@ -102,16 +104,14 @@ Effort profile: `▂▁▁▁▁▂▁▁▁▁▁▁▂▂▄▅▁▄▅▂▁
 9. `3+4 * 2 == 14`
 10. `4 - 2 + 2==0` <!-- TP3 -->
 
-**2.24.** Write a simple expression to check whether a given number `x` is odd or even.
+**2.27.** Write a simple expression to check whether a given number `x` is odd or even.
 
-**2.25.** It is easy to mistakenly type `&` instead of `and`. Are they equivalent? Try comparing `True and False` to `True & False`, and other variants. If your answer is 'yes', what about numbers, which previously you learned can be Truthy and Falsy too? For instance, compare `3 and 5` to `3 & 5`, and also try different combinations of numbers. (Unless you know a bit about representating numbers in binary, like `1101` meaning 13, it will be virtually impossible for you to figure out the pattern without looking it up in the documentation.) _In general, for boolean logic dealing with truth values, use only `and`, not `&`._
+**2.28.** If you have used the Python console for a while, enter `dir()` in the interpreter to show the 'directory', a list of names of all objects currently available (at least those in the _global scope_, about which we will learn later). As you will see, any variables previously created still exist (alongside some automatically created variables like `__name__`, about which we will also learn later). In PyCharm's Python Console, variables and their values are also standardly displayed in a separate panel on the right.
 
-**2.26.** If you have used the Python console for a while, enter `dir()` in the interpreter to show the 'directory', a list of names of all objects currently available (at least those in the _global scope_, about which we will learn later). As you will see, any variables previously created still exist (alongside some automatically created variables like `__name__`, about which we will also learn later). In PyCharm's Python Console, variables and their values are also standardly displayed in a separate panel on the right.
-
-**2.27.** If you mistype e.g. `maxx(1, 2, 3)` instead of `max(1, 2, 3)`, you would normally get the informative error _Name is not defined_ to notify you of this mistake: the name `maxx` does not appear in the `dir()`. But what if you defined a variable `maxx = 5` a while ago and you forgot about it? If you then make the typo `maxx('apple')`, the error you get will seem a bit more mysterious. Try this.
+**2.29.** If you mistype e.g. `maxx(1, 2, 3)` instead of `max(1, 2, 3)`, you would normally get the informative error _Name is not defined_ to notify you of this mistake: the name `maxx` does not appear in the `dir()`. But what if you defined a variable `maxx = 5` a while ago and you forgot about it? If you then make the typo `maxx('apple')`, the error you get will seem a bit more mysterious. Try this.
 
 - - - - - -
 **Something to keep in mind:** If you keep too many old names hanging around in the interpreter, this can make it more difficult to _detect mistakes_. To reduce this problem, occasionally restart your Python console (especially if you keep getting unexpected results).
 - - - - -
 
-**2.28.** ⭐ Given two integer numbers, assigned to variables `x` and `y`, what is the truth value of `x == (y * (x // y) + x % y)`. Can you change the truth value by changing the numbers assigned to `x` and `y`? How / why not?
+**2.30.** ⭐ Given two integer numbers, assigned to variables `x` and `y`, what is the truth value of `x == (y * (x // y) + x % y)`. Can you change the truth value by changing the numbers assigned to `x` and `y`? How / why not?
