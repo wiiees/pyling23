@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project E: Question classification
+## Coding Quest E: Question classification
 
-**_Finish [Section 13](../exercises/13_dictionary_basics.md) before attempting this project._**
+**_Finish [Section 13](../exercises/13_dictionary_basics.md) before attempting this quest._**
 
 
 **E.1.** Download [this file](../data/questions.txt) containing many English questions, and place it in a subfolder `data` of your current working directory. You can then read it into Python by doing the following (a later section will teach us more about reading files):

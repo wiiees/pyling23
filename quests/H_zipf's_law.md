@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project H: Zipf's law
+## Coding Quest H: Zipf's law
 
-**_Finish [Section 18](../exercises/18_dictionaries_advanced.md) before attempting this project._**
+**_Finish [Section 18](../exercises/18_dictionaries_advanced.md) before attempting this quest._**
 
 
 **H.1.** ⭐ According to _Zipf's law_, the frequency of any word in a natural language corpus is inversely proportional to its rank in the frequency table (most frequent = 1, second most frequent = 2, etc.). (Consider doing a quick web search to orient yourself around this well-known topic.) Without programming and without peeking at the next exercises, think of a way to test computationally whether a given corpus or text of choice follows Zipf's law: write down a list of concrete programming steps/functions we might need.

@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project B: Random sentence generator
+## Coding Quest B: Random sentence generator
 
-**_Finish [Section 9](../exercises/09_lists.md) before attempting this project._**
+**_Finish [Section 9](../exercises/09_lists.md) before attempting this quest._**
 
 
 **B.1.** Write a program (subdivided into functions as you see fit) that generates a random English sentence of the shape "{determiner} {noun} {verb}s" (e.g., "the student walks"). Use separate lists to store a bunch of lexical items of the required syntactic categories. At the top of your program do `import random`, which lets you use the function `random.choice` to randomly select an item from a list. Select random items from the appropriate lists and compose a string from them, printing the final result.

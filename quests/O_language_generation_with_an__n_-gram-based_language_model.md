@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project O: Language generation with an _n_-gram-based language model
+## Coding Quest O: Language generation with an _n_-gram-based language model
 
-**_Finish [Section 23](../exercises/23_quantifiers_and_counters.md) before attempting this project._**
+**_Finish [Section 23](../exercises/23_quantifiers_and_counters.md) before attempting this quest._**
 
 
 **O.1.** ⭐ Conceptually (no programming yet): think of a way in which we could automatically generate text by, repeatedly, randomly sampling the next word given previous words, on the basis of _n_-gram probabilities estimated from a text corpus. Even the largest, current deep learning models for language generation can be regarded as generalizations of this simple idea.

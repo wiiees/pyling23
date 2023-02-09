@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project M: Identifying topics
+## Coding Quest M: Identifying topics
 
-**_Finish [Section 23](../exercises/23_quantifiers_and_counters.md) before attempting this project._**
+**_Finish [Section 23](../exercises/23_quantifiers_and_counters.md) before attempting this quest._**
 
 
 **M.1.** Do you think the most frequent words in a book are a good indicator of the _topics_ of that book? Test this if you like.

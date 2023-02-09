@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project D: Trees
+## Coding Quest D: Trees
 
-**_Finish [Section 12](../exercises/12_more_lists_and_loops.md) before attempting this project._**
+**_Finish [Section 12](../exercises/12_more_lists_and_loops.md) before attempting this quest._**
 
 
 **D.1.** Conceptually (no programming required), can you think of a way to represent a syntactic constituency tree with the help of lists? Try to unambiguously represent, for instance, the constituency tree for "the student walks", with the help of (nested) lists. (Try not to peek at the next exercise.)

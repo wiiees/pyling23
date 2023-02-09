@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project F: Feature structures
+## Coding Quest F: Feature structures
 
-**_Finish [Section 13](../exercises/13_dictionary_basics.md) before attempting this project._**
+**_Finish [Section 13](../exercises/13_dictionary_basics.md) before attempting this quest._**
 
 
 **F.1.** Dictionaries are useful for representing so-called **feature structures**, i.e., bundles of features with values. For instance, we can represent a vocabulary as a list of feature structures, one per lexical entry, as illustrated below. To get a feel for feature structures, add a couple more lexical entries and then write some code to extract, say, a random transitive verb from this vocabulary, or a random singular noun (with the help of `import random` and `random.choice`).
@@ -17,7 +17,7 @@ vocabulary = [
 ```
 
 
-**F.2.** ⭐⭐ _[Optional, feel free to skip]_ One could perhaps debate the cognitive plausibility (and computational practicality...) of a lexicon containing both singular and plural forms of each noun (also, for the verbs the current approach basically assumes third person...). Feel free to pursue an alternative approach in this Mini-project, e.g., you could store only the singular forms in the vocabulary and derive plural forms on the fly, but this will add some complexity.
+**F.2.** ⭐⭐ _[Optional, feel free to skip]_ One could perhaps debate the cognitive plausibility (and computational practicality...) of a lexicon containing both singular and plural forms of each noun (also, for the verbs the current approach basically assumes third person...). Feel free to pursue an alternative approach in this Coding Quest, e.g., you could store only the singular forms in the vocabulary and derive plural forms on the fly, but this will add some complexity.
 
 **F.3.** ⭐ Define a function `build_DP` that generates a random determiner phrase, i.e., determiner + noun. It should ensure that the determiner and noun match in the grammatically relevant features (i.e., `number`). It returns a feature structure for the DP containing at least the constituent's `form` (the two words concatenated) and its `number` feature (inherited from the determiner and noun).
 

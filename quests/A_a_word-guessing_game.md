@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project A: A word-guessing game
+## Coding Quest A: A word-guessing game
 
-**_Finish [Section 7](../exercises/07_if-clauses.md) before attempting this project._**
+**_Finish [Section 7](../exercises/07_if-clauses.md) before attempting this quest._**
 
 
 **A.1.** In a script do `import random` and then `target = random.choice(['apple', 'pear', 'banana'])`. Verify that the variable `target` now contains a different random string each time you run the program.

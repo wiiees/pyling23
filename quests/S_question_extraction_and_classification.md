@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project S: Question extraction and classification
+## Coding Quest S: Question extraction and classification
 
-**_Finish [Section 28](../exercises/28_advanced_text_processing.md) before attempting this project._**
+**_Finish [Section 28](../exercises/28_advanced_text_processing.md) before attempting this quest._**
 
 
 

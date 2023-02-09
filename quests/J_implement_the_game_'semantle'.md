@@ -1,13 +1,13 @@
 # Python for Linguists 2023
 
-## Mini-project J: Implement the game 'Semantle'
+## Coding Quest J: Implement the game 'Semantle'
 
-**_Finish [Section 19](../exercises/19_loop_control_flow.md) before attempting this project._**
+**_Finish [Section 19](../exercises/19_loop_control_flow.md) before attempting this quest._**
 
 
 **J.1.** ⭐ _Semantle_ is a free online game (https://semantle.com/) based on distributional semantics. Read the description (the question mark button) and give it a try.
 
-**J.2.** This Mini-project will assume you have word vectors in the variable `word_vectors`, which behaves like dictionary mapping each word to its vector, i.e., a list (or Numpy-array) of numbers. For testing your code you can either a. manually define a small set of vectors, or b. use the word vectors we developed in the previous class, or c. use (something like) the following code to import 'real' word vectors using the `gensim` libary:
+**J.2.** This Coding Quest will assume you have word vectors in the variable `word_vectors`, which behaves like dictionary mapping each word to its vector, i.e., a list (or Numpy-array) of numbers. For testing your code you can either a. manually define a small set of vectors, or b. use the word vectors we developed in the previous class, or c. use (something like) the following code to import 'real' word vectors using the `gensim` libary:
 
 ```python
 import gensim.downloader as api

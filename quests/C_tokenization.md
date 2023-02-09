@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project C: Tokenization
+## Coding Quest C: Tokenization
 
-**_Finish [Section 11](../exercises/11_more_string_operations.md) before attempting this project._**
+**_Finish [Section 11](../exercises/11_more_string_operations.md) before attempting this quest._**
 
 
 **C.1.** ⭐ Define a simple **word tokenizer** function, that takes a string (text) as input and returns a list containing the individual words (i.e., particular substrings) in the text. You can try to do this either by looping over the string, checking each character one at a time, or by using string methods like `split` (or a combination). It doesn't need to be perfect yet.

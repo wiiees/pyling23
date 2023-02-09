@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project I: Translation
+## Coding Quest I: Translation
 
-**_Finish [Section 18](../exercises/18_dictionaries_advanced.md) before attempting this project._**
+**_Finish [Section 18](../exercises/18_dictionaries_advanced.md) before attempting this quest._**
 
 
 **I.1.** Create a dictionary `en_to_nl` that maps some English words to Dutch words. (You can also use another language pair of choice for these exercises.)

@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project K: Processing some books
+## Coding Quest K: Processing some books
 
-**_Finish [Section 20](../exercises/20_reading_and_writing_files.md) before attempting this project._**
+**_Finish [Section 20](../exercises/20_reading_and_writing_files.md) before attempting this quest._**
 
 
 **K.1.** Above you created the function `read_from_gutenberg`. However, as you may have noticed, text files from the Gutenberg project contain some meta-information (title, author, licence, etc.) that must be distinguished from the actual, original text. For instance, in Moby Dick look for lines beginning with `*** START` and `*** END`. Enhance your `read_from_gutenberg` function so that only the original text (between the `*** START` and `*** END` lines) is returned.

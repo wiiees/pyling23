@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project N: Detecting collocations
+## Coding Quest N: Detecting collocations
 
-**_Finish [Section 23](../exercises/23_quantifiers_and_counters.md) before attempting this project._**
+**_Finish [Section 23](../exercises/23_quantifiers_and_counters.md) before attempting this quest._**
 
 
 

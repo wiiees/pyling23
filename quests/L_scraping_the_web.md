@@ -1,8 +1,8 @@
 # Python for Linguists 2023
 
-## Mini-project L: Scraping the web
+## Coding Quest L: Scraping the web
 
-**_Finish [Section 20](../exercises/20_reading_and_writing_files.md) before attempting this project._**
+**_Finish [Section 20](../exercises/20_reading_and_writing_files.md) before attempting this quest._**
 
 
 **L.1.** With Python you can read not only local files on your computer, but also, e.g., webpages, with similar syntax as before but using `urlopen` from the `urllib.request` module (https://nos.nl is the Dutch public broadcaster's website): 
