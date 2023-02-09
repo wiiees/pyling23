@@ -35,6 +35,9 @@ Exercises:
 
 #### Why programming (for a linguist?)
 
+- industry
+- research (stats, corpus analysis, scraping, experiments (psychopy), automate the boring stuff)
+
 
 #### Why Python?
 
@@ -44,12 +47,12 @@ Python underlies: most deep learning/NLP, as well as Youtube, Google backend, Sp
 
 #### What is programming?
 
-
+- Telling the computer what to do.
+- Teaching the computer new words (functions, commands, programs) that make it easier for you (or someone else) to tell the computer what to do.  (Python core developers Raymond Hettinger.)
+...in a particular programming language.
 
 
 #### Natural language vs. programming language
-
-
 
 
 ![image from Pratt about language aptitude and learning programming](images/pratt2020_learning.png)
@@ -116,15 +119,15 @@ All files on Github; submit submittables through Brightspace.
 ```python
 for student in students:
     num_submittables_passed = sum(grades[student][submittable] == 'pass' for submittable in all_submittables)
-    if submittables_passed >= 0.8 * len(all_submittables):
-        grades[student]['course'] = (grades[student]['midterm_exam'] + grades['final_exam']) / 2
+    if num_submittables_passed >= 0.8 * len(all_submittables):
+        grades[student]['course'] = (grades[student]['midterm_exam'] + grades[student]['final_exam']) / 2
     else:
         grades[student]['course'] = 1
 ```
 
 
 #### Using ChatGPT?
-
+Meh. Consider the effect on your learning. 
 
 -------
 
