@@ -40,22 +40,66 @@ Exercises:
 
 [Python popularity](https://www.youtube.com/watch?v=qQXXI5QFUfw)
 
-<!-- Youtube, Google backend, Spotify, Reddit; most deep learning/NLP -->
+Python underlies: most deep learning/NLP, as well as Youtube, Google backend, Spotify, Reddit...
 
 #### What is programming?
 
-Problem decomposition
 
-Hettinger's (?)  "Defining new words that make it easier to tell the computer what to do."
+
+
+#### Natural language vs. programming language
+
+
+
+
+![image from Pratt about language aptitude and learning programming](images/pratt2020_learning.png)
+
+From _Relating Natural Language Aptitude to Individual Differences in Learning Programming Languages_ (https://www.nature.com/articles/s41598-020-60661-8)
 
 
 #### What is Python?
 
 Compiled vs. interpreted programming language implementations.
 
-- Python
-- Bytecode
-- Machine code
+Python is both:
+- Python --[compiled into]--> Bytecode --[interpreted]--> Machine code
+
+A simple Python program:
+```python
+a = 1234
+b = 5678 
+print(a + b)
+```
+
+Compiled into Bytecode:
+```
+01100100 00000000 01011010 00000000 01100100 00000001 01011010 00000001 01100101 00000010 01100101 00000000 01100101 00000001 00010111 00000000 10000011 00000001 00000001 00000000 01100100 00000010 01010011 00000000
+```
+
+Each byte corresponds to an instruction. More human-readable version of bytecode:
+```
+  1           0 LOAD_CONST               0 (1234)
+              2 STORE_NAME               0 (a)
+  2           4 LOAD_CONST               1 (5678)
+              6 STORE_NAME               1 (b)
+  3           8 LOAD_NAME                2 (print)
+             10 LOAD_NAME                0 (a)
+             12 LOAD_NAME                1 (b)
+             14 BINARY_ADD
+             16 CALL_FUNCTION            1
+             18 POP_TOP
+             20 LOAD_CONST               2 (None)
+             22 RETURN_VALUE
+```
+
+The Bytecode gets sent to the Python interpreter, which is a computer program that reads the Bytecode and while doing so sends corresponding Machine Code instructions to the CPU.
+
+
+#### Your dopamine levels throughout this course
+
+
+
+
 
 #### This course
 
@@ -65,6 +109,7 @@ Compiled vs. interpreted programming language implementations.
 - Classes
 - Quizzes
 - Submittables ✉️
+- Midterm and final exam [in part written, in part programming] 
 
 All files on Github; submit submittables through Brightspace.
 
@@ -78,15 +123,8 @@ for student in students:
 ```
 
 
+#### Using ChatGPT?
 
-#### Natural language vs. Python
-
-![image from Pratt about language aptitude and learning programming](images/pratt2020_learning.png)
-
-From _Relating Natural Language Aptitude to Individual Differences in Learning Programming Languages_ (https://www.nature.com/articles/s41598-020-60661-8)
-
-
-<!-- Dopamine graph --> 
 
 -------
 
