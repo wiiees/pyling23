@@ -21,8 +21,8 @@
 Exercises:
 - [Section 9. Lists (list, append, [...])](../exercises/09_lists.md): all exercises
 
-And the following Mini-project (✉️!):
-- [Mini-project B. Random sentence generator](../projects/B_random_sentence_generator.md) 
+And the following Coding Quest (✉️!):
+- [Quest B. Random sentence generator](../quests/B_random_sentence_generator.md) 
 
 -------
 
@@ -41,6 +41,6 @@ Exercises:
 - [Section 10. For-loops (for)](../exercises/10_for-loops.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▁▁▂▁▂▁(▁)▂▂▂▁▂▂▁▂▂▄▅▄▅▂▄▅▁▂▁▂▄▅▁▂▂▂▁(▂)▂▄▅▁▄▅`)
 - [Section 11. More string operations (split/join, strip)](../exercises/11_more_string_operations.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▄▅▂▁▁▂▁▂▄▅▂▄▅▁▂▂`)
 
-And the following Mini-project (✉️!):
-- [Mini-project C. Tokenization](../projects/C_tokenization.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▄▅▁▁▂`)
+And the following Coding Quest (✉️!):
+- [Quest C. Tokenization](../quests/C_tokenization.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▄▅▁▁▂`)
 

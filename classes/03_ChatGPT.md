@@ -44,6 +44,6 @@ Exercises:
 - [Section 7. If-clauses (if, elif, else)](../exercises/07_if-clauses.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▁▁▁▁▂▁▂▁▁▂▁▁▁▁▄▅▂▁▁▁▁▂▁▁▂▁▂▄▅`)
 - [Section 8. Defining and calling functions (def, return)](../exercises/08_functions.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▄▅▁▁▂▂▂▁▁▁▁▁▁▁▂▁▂▂▁█▁▁▁▁▂▂▂▁▁▁`)
 
-And the following Mini-project (✉️!):
-- [Mini-project A. A word-guessing game](../projects/A_a_word-guessing_game.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▁▂▁▁`)
+And the following Coding Quest (✉️!):
+- [Quest A. A word-guessing game](../quests/A_a_word-guessing_game.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▁▂▁▁`)
 

@@ -66,7 +66,7 @@ Effort profile: `▂▂▁▁▁▁▂▂▁▁▁▁▂▂▄▅▂▂▂▂▁
 
 -------
 
-**_Homework exercises for week 14 end here, now do Mini-project [P](../projects/P_extracting_dialogues_from_a_book.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 14 end here, now do Coding Quest [P](../quests/P_extracting_dialogues_from_a_book.md) (and don't forget to submit! ✉️)._**
 
 -------
 
@@ -95,7 +95,7 @@ def print_dependency_tree(token):
 
 
 
-**28.28.** ⭐⭐ Write a function `get_path_to_root` that takes a spaCy-processed sentence (not a full `doc`, which does not have a _root_) and a token from that sentence, and returns the dependency path from that token back to the sentence's root. It should return the path as a list of tokens, the first being the start token and the last being the root. (This function will likely be useful for the mini-adventure below.) In case you're stuck, try to formulate intuitively how one would search for a path to the root, e.g., something like 'As long as the current node is not yet the root node, do ...', and then translate this into code. 
+**28.28.** ⭐⭐ Write a function `get_path_to_root` that takes a spaCy-processed sentence (not a full `doc`, which does not have a _root_) and a token from that sentence, and returns the dependency path from that token back to the sentence's root. It should return the path as a list of tokens, the first being the start token and the last being the root. (This function will likely be useful for the Coding Quest below.) In case you're stuck, try to formulate intuitively how one would search for a path to the root, e.g., something like 'As long as the current node is not yet the root node, do ...', and then translate this into code. 
 
 
 **28.29.** ⭐⭐ Write a function that takes a spaCy-processed `Doc` as input and returns all _embedded clauses_ (e.g., the italicized parts of 'John knows _that Mary is old_', 'John wonders _if Mary likes him_'). As before, first apply `print_tokens` to a couple of relevant examples, to know what you need to be looking for. (Another tip: for a given token `tok`, use `list(tok.subtree)` to obtain the subtree headed by that token.) Do the results of your function include reported speech (e.g. '_I'm not happy_ he said')? Infinitival complements (e.g., 'I love _to go running with my boyfriend_')?
@@ -118,12 +118,12 @@ def print_dependency_tree(token):
 
 -----
 
-**_🐧 You are now ready for [Mini-project Q](../projects/Q_gender_bias.md)!_**
+**_🐧 You are now ready for [Coding Quest Q](../quests/Q_gender_bias.md)!_**
 
 -----
 
-**_🐧 You are now ready for [Mini-project R](../projects/R_similarity.md)!_**
+**_🐧 You are now ready for [Coding Quest R](../quests/R_similarity.md)!_**
 
 -----
 
-**_🐧 You are now ready for [Mini-project S](../projects/S_question_extraction_and_classification.md)!_**
+**_🐧 You are now ready for [Coding Quest S](../quests/S_question_extraction_and_classification.md)!_**

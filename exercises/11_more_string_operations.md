@@ -68,11 +68,11 @@ worse_names = '''#*T0DD#*
 
 -----
 
-**_🐥 You are now ready for [Mini-project C](../projects/C_tokenization.md)!_**
+**_🐥 You are now ready for [Coding Quest C](../quests/C_tokenization.md)!_**
 
 -------
 
-**_Homework exercises for week 6 end here, now do Mini-project [C](../projects/C_tokenization.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 6 end here, now do Coding Quest [C](../quests/C_tokenization.md) (and don't forget to submit! ✉️)._**
 
 -------
 

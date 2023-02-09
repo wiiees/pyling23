@@ -24,14 +24,14 @@ Exercises:
 - [Section 28. Advanced text processing](../exercises/28_advanced_text_processing.md): exercises 22-33
 - _(Optional)_ [Section 29. Smarter iteration with zip and enumerate](../exercises/29_zip_and_enumerate.md): all exercises
 
-And at least one of the following Mini-projects (✉️!):
-- [Mini-project Q. Gender bias](../projects/Q_gender_bias.md) 
-- [Mini-project R. Similarity](../projects/R_similarity.md) 
-- [Mini-project S. Question extraction and classification](../projects/S_question_extraction_and_classification.md) 
+And at least one of the following Coding Quests (✉️!):
+- [Quest Q. Gender bias](../quests/Q_gender_bias.md) 
+- [Quest R. Similarity](../quests/R_similarity.md) 
+- [Quest S. Question extraction and classification](../quests/S_question_extraction_and_classification.md) 
 
 **And more recently:**
 
-Do one of the optional exercise sections, or a Mini-project of choice, and consider at least skimming this one:
+Do one of the optional exercise sections, or a Coding Quest of choice, and consider at least skimming this one:
 - _(Optional)_ [Section 30. Where next?](../exercises/30_where_next?.md): all exercises
 
 -------

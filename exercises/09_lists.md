@@ -174,11 +174,11 @@ a = a.append(7)
 
 -----
 
-**_🦘 You are now ready for [Mini-project B](../projects/B_random_sentence_generator.md)!_**
+**_🦘 You are now ready for [Coding Quest B](../quests/B_random_sentence_generator.md)!_**
 
 -------
 
-**_Homework exercises for week 5 end here, now do Mini-project [B](../projects/B_random_sentence_generator.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 5 end here, now do Coding Quest [B](../quests/B_random_sentence_generator.md) (and don't forget to submit! ✉️)._**
 
 -------
 

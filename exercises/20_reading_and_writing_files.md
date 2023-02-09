@@ -140,16 +140,16 @@ with open('testABC.txt', 'r') as file:
 **20.31.** ⭐ Write a program that takes a path to some file, and replaces all newlines it contains by spaces, overwriting the original file (so be careful what you apply the function to). Can you think of a use-case for this sort of program?
 
 
-**20.32.** Project Gutenberg (https://www.gutenberg.org/) is an online library of free ebooks, many of which in plain text format. These text files are useful (and potentially interesting) data for some of the quests that follow. Let's download Moby Dick (https://www.gutenberg.org/files/2701/2701-0.txt), and save it to the folder you created earlier for 'files to be analyzed'. You can also download a couple of others. 
+**20.32.** Project Gutenberg (https://www.gutenberg.org/) is an online library of free ebooks, many of which in plain text format. These text files are useful (and potentially interesting) data for some of the Coding Quests that follow. Let's download Moby Dick (https://www.gutenberg.org/files/2701/2701-0.txt), and save it to the folder you created earlier for 'files to be analyzed'. You can also download a couple of others. 
 
-**20.33.** Create a function `read_from_gutenberg` for reading Gutenberg-style text files. It should take a path to such a file as input and return the book's text content as a single string. (The books contain some meta-information that you can get rid of in this function, but you can also keep it basic for now. A subsequent Mini-project will ask you to make improvements.) Move your `read_from_gutenberg` function to the file `text_utils.py`, as we will be using it in subsequent sections.
+**20.33.** Create a function `read_from_gutenberg` for reading Gutenberg-style text files. It should take a path to such a file as input and return the book's text content as a single string. (The books contain some meta-information that you can get rid of in this function, but you can also keep it basic for now. A subsequent Coding Quest will ask you to make improvements.) Move your `read_from_gutenberg` function to the file `text_utils.py`, as we will be using it in subsequent sections.
 
 
 
 
 -------
 
-**_Homework exercises for week 11 end here, now do Mini-project [J](../projects/J_implement_the_game_'semantle'.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 11 end here, now do Coding Quest [J](../quests/J_implement_the_game_'semantle'.md) (and don't forget to submit! ✉️)._**
 
 -------
 
@@ -170,8 +170,8 @@ with open('testABC.txt', 'r') as file:
 
 -----
 
-**_🐢 You are now ready for [Mini-project K](../projects/K_processing_some_books.md)!_**
+**_🐢 You are now ready for [Coding Quest K](../quests/K_processing_some_books.md)!_**
 
 -----
 
-**_🦕 You are now ready for [Mini-project L](../projects/L_scraping_the_web.md)!_**
+**_🦕 You are now ready for [Coding Quest L](../quests/L_scraping_the_web.md)!_**

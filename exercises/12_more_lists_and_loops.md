@@ -121,4 +121,4 @@ for city in cities:
 
 -----
 
-**_🦏 You are now ready for [Mini-project D](../projects/D_trees.md)!_**
+**_🦏 You are now ready for [Coding Quest D](../quests/D_trees.md)!_**

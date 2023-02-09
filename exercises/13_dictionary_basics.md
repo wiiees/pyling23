@@ -71,15 +71,15 @@ print(y)
 
 -----
 
-**_🦭 You are now ready for [Mini-project E](../projects/E_question_classification.md)!_**
+**_🦭 You are now ready for [Coding Quest E](../quests/E_question_classification.md)!_**
 
 -----
 
-**_🐙 You are now ready for [Mini-project F](../projects/F_feature_structures.md)!_**
+**_🐙 You are now ready for [Coding Quest F](../quests/F_feature_structures.md)!_**
 
 -------
 
-**_Homework exercises for week 7 end here, now do at least one of the Mini-projects [D](../projects/D_trees.md), [E](../projects/E_question_classification.md), [F](../projects/F_feature_structures.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 7 end here, now do at least one of the Coding Quests [D](../quests/D_trees.md), [E](../quests/E_question_classification.md), [F](../quests/F_feature_structures.md) (and don't forget to submit! ✉️)._**
 
 -------
 

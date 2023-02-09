@@ -22,8 +22,8 @@ Exercises:
 - [Section 10. For-loops (for)](../exercises/10_for-loops.md): all exercises
 - [Section 11. More string operations (split/join, strip)](../exercises/11_more_string_operations.md): all exercises
 
-And the following Mini-project (✉️!):
-- [Mini-project C. Tokenization](../projects/C_tokenization.md) 
+And the following Coding Quest (✉️!):
+- [Quest C. Tokenization](../quests/C_tokenization.md) 
 
 -------
 
@@ -42,8 +42,8 @@ Exercises:
 - [Section 12. More practice with lists and loops (also index)](../exercises/12_more_lists_and_loops.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▄▅▁▁▂▄▅▁▁▂▂▂▂▁▁▁▂▁▁▁▁▁▁▂▄▅▁▁▄▅▁▁▂▂▂`)
 - [Section 13. Dictionary basics](../exercises/13_dictionary_basics.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▁▁▁▁▁▂▁▁▁▂▁▁▁▁▂▁▄▅`)
 
-And at least one of the following Mini-projects (✉️!):
-- [Mini-project D. Trees](../projects/D_trees.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▄▅▂▄▅▄▅`)
-- [Mini-project E. Question classification](../projects/E_question_classification.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▂▄▅▂`)
-- [Mini-project F. Feature structures](../projects/F_feature_structures.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁(▄▅)▂▂▁(▄▅)▄▅▂`)
+And at least one of the following Coding Quests (✉️!):
+- [Quest D. Trees](../quests/D_trees.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▄▅▂▄▅▄▅`)
+- [Quest E. Question classification](../quests/E_question_classification.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▂▄▅▂`)
+- [Quest F. Feature structures](../quests/F_feature_structures.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁(▄▅)▂▂▁(▄▅)▄▅▂`)
 

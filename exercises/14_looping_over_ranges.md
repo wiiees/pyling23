@@ -81,4 +81,4 @@ for i in range(2:9:1):
 
 -----
 
-**_🦈 You are now ready for [Mini-project G](../projects/G_n-grams.md)!_**
+**_🦈 You are now ready for [Coding Quest G](../quests/G_n-grams.md)!_**

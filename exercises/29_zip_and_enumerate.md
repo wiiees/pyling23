@@ -130,7 +130,7 @@ for x, y in enumerate(my_dict.items()):
 
 -------
 
-**_Homework exercises for week 15 end here, now do at least one of the Mini-projects [Q](../projects/Q_gender_bias.md), [R](../projects/R_similarity.md), [S](../projects/S_question_extraction_and_classification.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 15 end here, now do at least one of the Coding Quests [Q](../quests/Q_gender_bias.md), [R](../quests/R_similarity.md), [S](../quests/S_question_extraction_and_classification.md) (and don't forget to submit! ✉️)._**
 
 -------
 

@@ -28,8 +28,8 @@ Exercises:
 - [Section 14. Looping over ranges (range)](../exercises/14_looping_over_ranges.md): all exercises
 - [Section 15. Function parameters and arguments](../exercises/15_function_parameters_and_arguments.md): all exercises
 
-And the following Mini-project (✉️!):
-- [Mini-project G. n-grams](../projects/G_n-grams.md) 
+And the following Coding Quest (✉️!):
+- [Quest G. n-grams](../quests/G_n-grams.md) 
 
 -------
 
@@ -46,7 +46,7 @@ Exercises:
 - _(Optional)_ [Section 17. Modules (import, __name__)](../exercises/17_modules_and_import.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`(▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁)`)
 - [Section 18. Dictionaries advanced](../exercises/18_dictionaries_advanced.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▂▁▁▁▂▁▁▂▂▁▄▅▁▁▁▁▂▁▁▁▂▁▁▁▂▁▂▂▁▁`)
 
-And at least one of the following Mini-projects (✉️!):
-- [Mini-project H. Zipf's law](../projects/H_zipf's_law.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▄▅▁▁▂▄▅`)
-- [Mini-project I. Translation](../projects/I_translation.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▄▅▂▂▁`)
+And at least one of the following Coding Quests (✉️!):
+- [Quest H. Zipf's law](../quests/H_zipf's_law.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▄▅▁▁▂▄▅`)
+- [Quest I. Translation](../quests/I_translation.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▄▅▂▂▁`)
 

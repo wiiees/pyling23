@@ -118,4 +118,4 @@ else:
 
 -----
 
-**_🐋 You are now ready for [Mini-project A](../projects/A_a_word-guessing_game.md)!_**
+**_🐋 You are now ready for [Coding Quest A](../quests/A_a_word-guessing_game.md)!_**

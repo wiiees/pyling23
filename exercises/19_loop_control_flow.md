@@ -240,4 +240,4 @@ while counter:
 
 -----
 
-**_🦎 You are now ready for [Mini-project J](../projects/J_implement_the_game_'semantle'.md)!_**
+**_🦎 You are now ready for [Coding Quest J](../quests/J_implement_the_game_'semantle'.md)!_**

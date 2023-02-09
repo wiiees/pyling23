@@ -119,15 +119,15 @@ new_dict = {key: value for key, value in name_to_id.items() if key[0].lower() in
 
 -----
 
-**_🐍 You are now ready for [Mini-project H](../projects/H_zipf's_law.md)!_**
+**_🐍 You are now ready for [Coding Quest H](../quests/H_zipf's_law.md)!_**
 
 -----
 
-**_🐬 You are now ready for [Mini-project I](../projects/I_translation.md)!_**
+**_🐬 You are now ready for [Coding Quest I](../quests/I_translation.md)!_**
 
 -------
 
-**_Homework exercises for week 10 end here, now do at least one of the Mini-projects [H](../projects/H_zipf's_law.md), [I](../projects/I_translation.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 10 end here, now do at least one of the Coding Quests [H](../quests/H_zipf's_law.md), [I](../quests/I_translation.md) (and don't forget to submit! ✉️)._**
 
 -------
 

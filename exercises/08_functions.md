@@ -222,7 +222,7 @@ def sum_three_numbers(a, b, c):
 
 -------
 
-**_Homework exercises for week 4 end here, now do Mini-project [A](../projects/A_a_word-guessing_game.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 4 end here, now do Coding Quest [A](../quests/A_a_word-guessing_game.md) (and don't forget to submit! ✉️)._**
 
 -------
 

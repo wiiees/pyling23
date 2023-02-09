@@ -238,7 +238,7 @@ def print_the_time(time=datetime.datetime.now()):
 
 -------
 
-**_Homework exercises for week 9 end here, now do Mini-project [G](../projects/G_n-grams.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 9 end here, now do Coding Quest [G](../quests/G_n-grams.md) (and don't forget to submit! ✉️)._**
 
 -------
 

@@ -22,10 +22,10 @@ Exercises:
 - [Section 12. More practice with lists and loops (also index)](../exercises/12_more_lists_and_loops.md): all exercises
 - [Section 13. Dictionary basics](../exercises/13_dictionary_basics.md): all exercises
 
-And at least one of the following Mini-projects (✉️!):
-- [Mini-project D. Trees](../projects/D_trees.md) 
-- [Mini-project E. Question classification](../projects/E_question_classification.md) 
-- [Mini-project F. Feature structures](../projects/F_feature_structures.md) 
+And at least one of the following Coding Quests (✉️!):
+- [Quest D. Trees](../quests/D_trees.md) 
+- [Quest E. Question classification](../quests/E_question_classification.md) 
+- [Quest F. Feature structures](../quests/F_feature_structures.md) 
 
 -------
 
@@ -92,6 +92,6 @@ Exercises:
 - [Section 14. Looping over ranges (range)](../exercises/14_looping_over_ranges.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▂▁▁▁▂▂▁▂▄▅▂▄▅▄▅▄▅▁▁(▄▅)▂▁▁▁▁█`)
 - [Section 15. Function parameters and arguments](../exercises/15_function_parameters_and_arguments.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▁▁▂▂▁▂▁▁▁▁▂▁▁▁▁▂(▄▅▁)▁▂▁▁▂█▁▂▁▁▁▂▁▁▁▄▅▁▂`)
 
-And the following Mini-project (✉️!):
-- [Mini-project G. n-grams](../projects/G_n-grams.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▄▅▂▁▂▄▅▁`)
+And the following Coding Quest (✉️!):
+- [Quest G. n-grams](../quests/G_n-grams.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▄▅▂▁▂▄▅▁`)
 

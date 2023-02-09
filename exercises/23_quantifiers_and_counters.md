@@ -121,7 +121,7 @@ counter = collections.Counter(['a', 'a', 'b', 'c', 'a', 'a', 'b', 'c', 'c', 'c',
 
 -------
 
-**_Homework exercises for week 12 end here, now do at least one of the Mini-projects [K](../projects/K_processing_some_books.md), [L](../projects/L_scraping_the_web.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 12 end here, now do at least one of the Coding Quests [K](../quests/K_processing_some_books.md), [L](../quests/L_scraping_the_web.md) (and don't forget to submit! ✉️)._**
 
 -------
 
@@ -130,12 +130,12 @@ counter = collections.Counter(['a', 'a', 'b', 'c', 'a', 'a', 'b', 'c', 'c', 'c',
 
 -----
 
-**_🦋 You are now ready for [Mini-project M](../projects/M_identifying_topics.md)!_**
+**_🦋 You are now ready for [Coding Quest M](../quests/M_identifying_topics.md)!_**
 
 -----
 
-**_🐝 You are now ready for [Mini-project N](../projects/N_detecting_collocations.md)!_**
+**_🐝 You are now ready for [Coding Quest N](../quests/N_detecting_collocations.md)!_**
 
 -----
 
-**_🦂 You are now ready for [Mini-project O](../projects/O_language_generation_with_an__n_-gram-based_language_model.md)!_**
+**_🦂 You are now ready for [Coding Quest O](../quests/O_language_generation_with_an__n_-gram-based_language_model.md)!_**

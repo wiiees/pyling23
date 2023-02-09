@@ -23,8 +23,8 @@ Exercises:
 - _(Optional)_ [Section 27. Advanced regular expressions (groups)](../exercises/27_advanced_regular_expressions.md): all exercises
 - [Section 28. Advanced text processing](../exercises/28_advanced_text_processing.md): exercises 1-21
 
-And the following Mini-project (✉️!):
-- [Mini-project P. Extracting dialogues from a book](../projects/P_extracting_dialogues_from_a_book.md) 
+And the following Coding Quest (✉️!):
+- [Quest P. Extracting dialogues from a book](../quests/P_extracting_dialogues_from_a_book.md) 
 
 -------
 
@@ -42,13 +42,13 @@ Exercises:
 - [Section 28. Advanced text processing](../exercises/28_advanced_text_processing.md): exercises 22-33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▄▅▂▂▁▄▅▄▅▁▂▁▄▅`)
 - _(Optional)_ [Section 29. Smarter iteration with zip and enumerate](../exercises/29_zip_and_enumerate.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`(▁▁▂▁▁▁▁▁▁▁▂▁▂▂▁▁▁▁▁▂▂▂)`)
 
-And at least one of the following Mini-projects (✉️!):
-- [Mini-project Q. Gender bias](../projects/Q_gender_bias.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▄▅`)
-- [Mini-project R. Similarity](../projects/R_similarity.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁`)
-- [Mini-project S. Question extraction and classification](../projects/S_question_extraction_and_classification.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁█▄▅▂▂▁`)
+And at least one of the following Coding Quests (✉️!):
+- [Quest Q. Gender bias](../quests/Q_gender_bias.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▄▅`)
+- [Quest R. Similarity](../quests/R_similarity.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁`)
+- [Quest S. Question extraction and classification](../quests/S_question_extraction_and_classification.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁█▄▅▂▂▁`)
 
 **And for the week after that:**
 
-Do one of the optional exercise sections, or a Mini-project of choice, and consider at least skimming this one:
+Do one of the optional exercise sections, or a Coding Quest of choice, and consider at least skimming this one:
 - _(Optional)_ [Section 30. Where next?](../exercises/30_where_next?.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`(▁▁▁▁▁▁▁▁▁)`)
 

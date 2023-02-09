@@ -2,7 +2,7 @@
 
 ## 24. Self-documenting code
 
-Effort profile: `(▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▂▂▁▄▅▂)` 
+Effort profile: `(▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▂▂▁▄▅▄▅)` 
 
 
 
@@ -200,5 +200,5 @@ print([s for i, s in enumerate(python) if not p[i]])	# these failed the exam
 ```
 
 
-**24.23.** ⭐ Your future self kindly asks you to review your own code for some of the mini-adventures, and try to make it more self-documenting.
+**24.23.** ⭐⭐ Your future self kindly asks you to review your own code for some of the Coding Quests, and try to make it more self-documenting.
 

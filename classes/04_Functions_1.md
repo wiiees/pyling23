@@ -29,8 +29,8 @@ Exercises:
 - [Section 7. If-clauses (if, elif, else)](../exercises/07_if-clauses.md): all exercises
 - [Section 8. Defining and calling functions (def, return)](../exercises/08_functions.md): all exercises
 
-And the following Mini-project (✉️!):
-- [Mini-project A. A word-guessing game](../projects/A_a_word-guessing_game.md) 
+And the following Coding Quest (✉️!):
+- [Quest A. A word-guessing game](../quests/A_a_word-guessing_game.md) 
 
 -------
 
@@ -62,6 +62,6 @@ Also avoiding if/elses and instead defining classes --> helps understand int.add
 Exercises:
 - [Section 9. Lists (list, append, [...])](../exercises/09_lists.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▄▅▁▂▁▂▂▄▅▄▅▂▂▁▁▂▂▂▁▂▁▂▂▂`)
 
-And the following Mini-project (✉️!):
-- [Mini-project B. Random sentence generator](../projects/B_random_sentence_generator.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▄▅▂▂(▄▅)▂`)
+And the following Coding Quest (✉️!):
+- [Quest B. Random sentence generator](../quests/B_random_sentence_generator.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▄▅▂▂(▄▅)▂`)
 

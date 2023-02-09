@@ -111,7 +111,7 @@ print(regex1 == regex3, regex2 == regex3)
 
 -------
 
-**_Homework exercises for week 13 end here, now do at least one of the Mini-projects [M](../projects/M_identifying_topics.md), [N](../projects/N_detecting_collocations.md), [O](../projects/O_language_generation_with_an__n_-gram-based_language_model.md) (and don't forget to submit! ✉️)._**
+**_Homework exercises for week 13 end here, now do at least one of the Coding Quests [M](../quests/M_identifying_topics.md), [N](../quests/N_detecting_collocations.md), [O](../quests/O_language_generation_with_an__n_-gram-based_language_model.md) (and don't forget to submit! ✉️)._**
 
 -------
 
@@ -171,4 +171,4 @@ print(re.split(r'(?<!Dr)\.', example_string))
 
 -----
 
-**_🐞 You are now ready for [Mini-project P](../projects/P_extracting_dialogues_from_a_book.md)!_**
+**_🐞 You are now ready for [Coding Quest P](../quests/P_extracting_dialogues_from_a_book.md)!_**
