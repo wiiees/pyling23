@@ -112,7 +112,8 @@ The Bytecode gets sent to the Python interpreter, which is a computer program th
 - Classes
 - Quizzes
 - Submittables ✉️: submit on Brightspace _prior_ to the class when the homework is due, or earlier if you would like feedback on it during class.
-- Midterm and final exam [in part written, in part programming] 
+- Midterm and final exam [in part written, in part programming]
+- Office hours: Tuesdays 15-16pm.
 
 All files on Github; submit submittables through Brightspace.
 
