@@ -6,9 +6,9 @@ Effort profile: `▁▁▂▁▁▁▁▁▁▂▁▁▁▂▂▁▂▁▁▁▂
 
 
 
-**5.1.** Create a Python file (e.g., `exercises2.py`), open it in the editor (if not opened automatically), enter `print('Hello, world!')` in the file and run it (cf. Section 0).
+**5.1.** Create a Python file (e.g., `exercises5.py`), open it in the editor (if not opened automatically), enter `print('Hello, world!')` in the file and run it (cf. Section 0).
 
-**5.2.** If the printed output `Hello, world!` appeared in the **Run** panel at the bottom of the screen, perfect! This is generally how we will be running our scripts. However, if the output appeared instead in the **Console** panel, then you may have hit the wrong hotkey. Fix this by editing the _run configuration_ for this script: in the toolbar (top right), click the drop-down list (currently likely showing `exercises2`) and from the list click `Edit configurations...`. There, in the run configuration for the script `exercises2.py`, make sure the option `Run with Python console` is _disabled_. Then try to run it again (`shift`+`F10`, or the green 'play' button).
+**5.2.** If the printed output `Hello, world!` appeared in the **Run** panel at the bottom of the screen, perfect! This is generally how we will be running our scripts. However, if the output appeared instead in the **Console** panel, then you may have hit the wrong hotkey. Fix this by editing the _run configuration_ for this script: in the toolbar (top right), click the drop-down list (currently likely showing `exercises5`) and from the list click `Edit configurations...`. There, in the run configuration for the script `exercises5.py`, make sure the option `Run with Python console` is _disabled_. Then try to run it again (`shift`+`F10`, or the green 'play' button).
 
 **5.3.** ⭐ Recall that the Python Console always displays the last result, e.g., typing `'apple'` and hitting Enter will make the string `apple` be echoed back to you. Similarly, entering `a = 'apple'` and then entering `a` will show `apple` again. Verify that this is _not_ the case when running a script: adding the line `'apple'` to your script and running it will not output `apple`. This is why, when working inside a script, you need an explicit `print` statement to show any output.
 
