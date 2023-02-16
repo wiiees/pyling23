@@ -51,20 +51,20 @@ Effort profile: `▂▁▁▁▁▂▁▁▁▁▁▁▂▂▄▅▁▄▅▂▁
 
 
 **2.15.** ⭐⭐ For each of the following equivalences, determine (first without Python) whether you can make the equivalence come out as `False` by assigning certain truth values to the atomic variables `p` and `q`, and then use Python to verify.
-1. `p or q == p and q`
-2. `not p or not q == not (p or q)`
-3. `p or q == q or p`
-4. `p or not p == q or not q`
-5. `not p or not q == not (p and q)`
+1. `(p or q) == (p and q)`
+2. `(not p or not q) == not (p or q)`
+3. `(p or q) == (q or p)`
+4. `(p or not p) == (q or not q)`
+5. `(not p or not q) == not (p and q)`
 
 **2.16.** If in the previous exercise you had to try the same expressions a couple of times (with different truth values assigned to `p` and `q`), then hopefully you remembered to use the up arrow in the Console to cycle through previous commands.
 
 **2.17.** ⭐⭐ Do the same, but now with three variables `p`, `q` and `r` to play with: can you assign truth values to them in a way that makes the following equivalences come out as `False`? (This is tricky! You can either try to reason your way towards the solution, or simply try out different possible variable assignments.)
-1. `p or (q and r) == (p or q) and r`
-2. `p and (q and r) == (p and q) and r`
-3. `p or (q or r) == (p or q) or r`
-4. `p or (q and r) == (p or q) and (p or r)`
-5. `p and (q or r) == (p and q) or (p and r)`
+1. `(p or (q and r)) == ((p or q) and r)`
+2. `(p and (q and r)) == ((p and q) and r)`
+3. `(p or (q or r)) == ((p or q) or r)`
+4. `(p or (q and r)) == ((p or q) and (p or r))`
+5. `(p and (q or r)) == ((p and q) or (p and r))`
 
 **2.18.** ⭐ Some of the previous exercises revealed that in some cases the parentheses don't seem to make a difference. Can you safely omit them in those cases? What if you omit them in the cases where it _does_ make a difference? Try to predict the result and then test it with Python. Can you explain what you see with the help of specific operator precedence rules (https://docs.python.org/3/reference/expressions.html#operator-precedence)?
 
