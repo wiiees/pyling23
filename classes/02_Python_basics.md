@@ -45,6 +45,12 @@ Why?
 
 #### Float precision
 
+In case you encountered the weird decimal error when doing something like:
+
+```python
+0.1 + 0.1 + 0.1
+```
+
 https://docs.python.org/3/tutorial/floatingpoint.html
 https://en.wikipedia.org/wiki/Double-precision_floating-point_format
 
@@ -64,10 +70,18 @@ def say_hi(name: str) -> str:
     return f'Hi {name}'
 ```
 
+Duck typing (i.e., dynamic typing): Python functions don't care about what type of object they get, as long as it provides the attributes/methods it needs.
+
 #### A comment about object-oriented programming
 
-
-
+- Basically everything is (i.e., every valid Python expression evaluates to) an object.
+- Objects have attributes and methods. 
+- Python operators are syntactic shorthands for methods on objects, e.g., `+` for the `__add__` method provided by integers, floats, strings... Hence what the operator does (e.g., addition vs concatenation) depends on how a particular object class implements the `__add__` method.
+- Duck typing: Python functions don't care about what type of object they get, as long as it provides the attributes/methods it needs.
+- Object-oriented programming (OOP):
+  1. Defining classes of objects that encapsulate certain closely related functions.
+  2. Using classes of objects that people have already built (e.g., from collections import Counter).
+- In practice, OOP for us is mostly item 2: learning to find and use other people's classes (in libraries that we can `import`).
 
 -------
 
