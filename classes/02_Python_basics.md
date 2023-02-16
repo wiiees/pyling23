@@ -35,21 +35,37 @@ Exercises:
 
 ### 3. Python basics 
 
-#### First a comment quotation marks
+
+#### Strings, quotation marks, printing
 
 `print('abc')`  this prints   `abc`    (not:  `'abc'`)
 
-#### Duck typing
+Why?
 
-Python is a dynamically typed language.
+
+#### Float precision
+
+https://docs.python.org/3/tutorial/floatingpoint.html
+https://en.wikipedia.org/wiki/Double-precision_floating-point_format
+
+A float is exactly representable if it is equal to a/b where a and b are integers (max 52-bit) and b is a power of 2.
+
+#### Console vs. scripts (Homework sec. 5.) 
+
+
+#### Duck typing (Homework 6.)
+
+Python is a strongly types, dynamically typed language.
 
 _Type hints_ are possible in Python, but these are _comments for the human programmer_ and not actually enforced when the code is compiled/interpreted:
 
 ```python
-
+def say_hi(name: str) -> str:
+    return f'Hi {name}'
 ```
 
-#### Object-oriented programming
+#### A comment about object-oriented programming
+
 
 
 
