@@ -108,8 +108,8 @@ The Bytecode gets sent to the Python interpreter, which is a computer program th
 
 - Exercises
 - Solutions (one week delay)
-- Projects
-- Classes
+- Coding Quests
+- Classes (& Coding Adventures in class)
 - Quizzes
 - Submittables ✉️: submit on Brightspace _prior_ to the class when the homework is due, or earlier if you would like feedback on it during class.
 - Midterm and final exam [in part written, in part programming]
@@ -140,7 +140,7 @@ _Do:_ Explore how ChatGPT can help you learn more. For instance, for exercises t
 
 Exercises:
 - [Section 1. The Python Console, numbers and variables (=, +, %, ...)](../exercises/01_console_and_numbers.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▁▁▁▁▁▁▂▁▁▁▁▁▁▂▁▁▁▁▁▄▅▁▂▂▁▂▁▄▅▁▁▂`)
-- [Section 2. Logic (and, or, ==, =>, ...)](../exercises/02_logic.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▁▁▁▂▁▁▁▁▁▁▂▂▄▅▁▄▅▂▁▁▂▂▂▁▁▁▁▂`)
+- [Section 2. Logic (and, or, ==, =>, ...)](../exercises/02_logic.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▁▁▁▂▁▁▁▁▁▁▂▂▄▅▁▄▅▂▁▁▂▂▄▅▄▅▁▂▁▁▁▂`)
 - [Section 3. Strings ('...', +, len, [])](../exercises/03_strings.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▁▁▁▁▁▁▁▁▁▂▁▂▁▂▂▁▁▁▁▁▁▁▁▁▁▂▁▁▁▄▅▁▁▁▁▁▁▁▁▁▁▁▁▂▂`)
 - _(Optional)_ [Section 4. Python code and Bytecode](../exercises/04_python_and_bytecode.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`(▁▁▁▁▂▂▁▂▂)`)
 
