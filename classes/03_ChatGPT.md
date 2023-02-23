@@ -35,32 +35,35 @@ Exercises:
 
 #### What is ChatGPT?
 
-- G?
-- P?
-- T?
-- Chat?
+- G: Generative: given the text so far, randomly sample the next word (or word piece)
+- P: Pretrained: on next-word-prediction for a good chunk of text on the internet: wikipedia, common crawl, books; it is 'pretrained' on this general task, to be 'finetuned' on more specific tasks.
+- T: Transformer: a type of artificial neural network.
+- Chat: chat ~ Fine-tuned to display chat-bot kind of behavior
+
+Why is next-word-prediction ('generative') a good pre-training task?
+1. We get the training data for free (no human annotations necessary)
+2. Next-word-prediction requires all levels of linguistic knowledge (from lexicon to pragmatics) and a lot of world knowledge.
 
 #### Neural networks
 
 ![image of a multi-layer perceptron](images/mlp.png)
 
-
-#### Language models
-
+[On whiteboard] Neural activation vectors as points in high-dimensional space.
 
 #### Transformers
 
-
+[Explanation on whiteboard, and by printing the model in the code below.]
 
 **Further reading:** It is quite technical, but the pictures help:
 https://jalammar.github.io/illustrated-gpt2/
 
-
 #### Python's NLP ecosystem
 
+In class I mentioned  https://huggingface.co/ as a large hub of datasets, models etc.
+
+Towards the end of this class we will work with its close relative Spacy (https://spacy.io/), which offers NLP 'pipelines' for tokenizing, part-of-speech-tagging, parsing, etc. Huggingface models can typically be loaded in/integrated with Spacy 'pipelines'.
 
 #### Using GPT2 in Python
-
 
 ```python
 import transformers
@@ -110,7 +113,7 @@ if __name__ == '__main__':
     main()
 ```
 
-
+Various options (commented out above) can be used to make the output less repetitive and more human-like.
 
 -------
 
