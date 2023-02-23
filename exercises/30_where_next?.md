@@ -37,7 +37,7 @@ Effort profile: `(▁▁▁▁▁▁▁▁▁)`
 
 -------
 
-**_The homework exercises for week 16 end here (don't forget to submit those marked by '✉️'!)._**
+**_The homework exercises for week 16 end here (nothing to submit this week)._**
 
 -------
 
