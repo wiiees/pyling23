@@ -61,7 +61,7 @@ https://jalammar.github.io/illustrated-gpt2/
 
 In class I mentioned  https://huggingface.co/ as a large hub of datasets, models etc.
 
-Towards the end of this class we will work with its close relative Spacy (https://spacy.io/), which offers NLP 'pipelines' for tokenizing, part-of-speech-tagging, parsing, etc. Huggingface models can typically be loaded in/integrated with Spacy 'pipelines'.
+Towards the end of this course we will work with its close relative Spacy (https://spacy.io/), which offers NLP 'pipelines' for tokenizing, part-of-speech-tagging, parsing, etc. Huggingface models can typically be loaded in/integrated with Spacy 'pipelines'.
 
 #### Using GPT2 in Python
 
