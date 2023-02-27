@@ -41,7 +41,7 @@ print('print this!')
 
 **7.7.** In your Python editor (or the interpreter), can you indent with the 'tab' key? Do these appear as proper tabs (large spaces) or are they automatically replaced by sequences of multiple normal, narrow spaces? In the latter case, you're safe; but if the former can happen, you need to pay extra attention: Python permits indentation either with tabs or with spaces, but not mixed within the same file.
 
-**7.8.** ⭐ Write a program that, given a variable `n` with a number, tests if its value is odd, and if not, adds 1 to it and prints _I made it even!_. Subsequently, regardless of whether it was originally even or odd, the program should always print the resulting value of `n`.
+**7.8.** ⭐ Write a program that, given a variable `n` with a number, tests if its value is odd, and if not, adds 1 to it and prints _I made it odd!_. Subsequently, regardless of whether it was originally even or odd, the program should always print the resulting value of `n`.
 
 **7.9.** Can one if-clause be embedded in the body of another if-clause? Do you need double indentation at some point? Insert print statements at various places and levels of indentation in this code to track what happens.
 
@@ -91,7 +91,7 @@ else:
 **7.25.** Does your code for the previous exercise contain nested if-clauses? Implement a version without nested if-clauses. Besides `elif`, you can also reduce nested ifs by combining your conditions using boolean operators like `and` and `or`.
 
 - - - - - -
-**Something to keep in mind:** Nested if-clauses are frowned upon as an 'anti-pattern' in programming, to be avoided because they make code difficult to read and maintain -- and this applies not only to `if`-clauses (see also `for`-clauses below).
+**Something to keep in mind:** Nested if-clauses are frowned upon as an 'anti-pattern' in programming, to be avoided because they make code difficult to read and maintain -- and this applies not only to `if`-clauses (e.g., `for`-clauses, to be introduced in Section 10).
 - - - - -
 
 **7.26.** How often does your coin-flip program check the variables `coin1` and `coin2`? If either variable is checked more than twice, you are checking more than you need to; try to simplify your code.
