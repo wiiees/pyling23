@@ -19,7 +19,7 @@
 
 ### 1. Quiz
 
-The quiz will be revealed during class.
+The quiz will be handed out during class.
 
 -------
 
@@ -36,24 +36,26 @@ And the following Coding Quest (✉️!):
 
 ### 3. Functions (1/2)
 
+#### Finish last week's GPT2 demo
 
-Built-ins vs. custom functions.
 
-Syntactic sugar.
+#### Functions
 
-Return vs. print
+`Return` vs. `print`.
+
+Custom functions vs. built-in functions vs. operators. 
+
+Functions and 'methods'
 
 #### Refactoring
 
+DRY (vs. WET vs. AHA/DAMP/MOIST)
 
-DRY
-OLOA
-OAOO
+SLAB
 
-Also avoiding if/elses and instead defining classes --> helps understand int.add, str.add etc.
+Encapsulation (variable scope; compile-time vs. run-time)
 
 
-[EXAMPLE]
 
 -------
 
