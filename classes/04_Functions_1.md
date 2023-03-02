@@ -43,7 +43,11 @@ And the following Coding Quest (✉️!):
 
 `Return` vs. `print`.
 
-Custom functions vs. built-in functions vs. operators. 
+Custom functions (`def`) vs. built-in functions vs. operators. 
+
+`in`, `if`, `else`, `+`, `=`
+
+Many are shortcuts for 'dunder methods'
 
 Functions and 'methods'
 
