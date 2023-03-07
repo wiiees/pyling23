@@ -74,7 +74,7 @@ far from the tree'
 
 **3.24.** Is `in` a keyword or a built-in function? 
 
-**3.25.** Do you expect the following to be equivalent: `not 'p' in 'apple'` and `'p' not in 'apple`? Which one do you find more readable? Chances are that your editor gives you a friendly warning when you use the first one.
+**3.25.** Do you expect the following to be equivalent: `not 'p' in 'apple'` and `'p' not in 'apple'`? Which one do you find more readable? Chances are that your editor gives you a friendly warning when you use the first one.
 
 **3.26.** Can you predict what is going on here? `1 in '123'` vs. `'1' in '123'` vs. `1 in 123`. Verify and explain.
 
