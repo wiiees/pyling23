@@ -23,7 +23,7 @@ Effort profile: `▂▁▁▁▁▁▁▁▂▁▁▁▁▁▁▂▁▁▁▁▁
 
 **1.8.** In the Python Console, compute how many seconds there are in 42 minutes and 42 seconds. <!-- TP2 -->
 
-**1.9.** ⭐ How many miles are there in 10 kilometers? Hint: there are 1.15 kilometers in a mile. <!-- TP2 -->
+**1.9.** ⭐ How many miles are there in 10 kilometers? Hint: there are 1.61 kilometers in a mile. <!-- TP2 -->
 
 
 **1.10.** What does entering `blabla = 5` in the console do? Subsequently, what does entering `blabla` do?
