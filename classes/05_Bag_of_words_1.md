@@ -9,14 +9,21 @@
 
 
 ### Plan
-1. Homework discussion
-2. 'Bag of words' (1/2)
-3. Practical
+1. Quiz
+2. Homework discussion
+3. 'Bag of words' (1/2)
+4. Practical
 
 
 -------
 
-### 1. Homework for today
+### 1. Quiz
+
+The quiz will be handed out during class.
+
+-------
+
+### 2. Homework for today
 
 Exercises:
 - [Section 9. Lists (list, append, [...])](../exercises/09_lists.md): all exercises
@@ -26,16 +33,16 @@ And the following Coding Quest (✉️!):
 
 -------
 
-### 2. 'Bag of words' (1/2)
+### 3. 'Bag of words' (1/2)
 
-bag of words adventure
+Bag-of-words adventure!
 
-
-May include accuracy etc. here, and machine learning?
+Part 1: 'feature engineering' to create a sentiment classifier.
+Part 2: 'feature extraction' using bag-of-words.
 
 -------
 
-### 3. Practicum: homework for next time
+### 4. Practicum: homework for next time
 
 Exercises:
 - [Section 10. For-loops (for)](../exercises/10_for-loops.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▁▁▂▁▂▁(▁)▂▂▂▁▂▂▁▂▂▄▅▄▅▂▄▅▁▂▁▂▄▅▁▂▂▂▁(▂)▂▄▅▁▄▅`)
