@@ -7,8 +7,12 @@ Closely based on:  https://huggingface.co/blog/how-to-generate
 
 def main():
 
+    # GPU = graphical processing unit
+    # CPU = central processing unit
+
     tokenizer = transformers.GPT2Tokenizer.from_pretrained("gpt2")
     model = transformers.GPT2LMHeadModel.from_pretrained("gpt2", pad_token_id=tokenizer.eos_token_id)
+    # print(model)
 
     prompt = 'I enjoy walking with my cute dog'
     input_ids = tokenizer.encode(prompt, return_tensors='pt')
@@ -17,7 +21,7 @@ def main():
         input_ids,
         max_length=60,
 
-        # num_beams=5,
+        num_beams=5,
         # early_stopping=True,
         # no_repeat_ngram_size=2,
         # num_return_sequences=5,
@@ -28,9 +32,9 @@ def main():
         # output_scores=True, return_dict_in_generate=True,
 
         do_sample=True,
-        # temperature=2.0,
+        temperature=2.0,
         # top_k=50,
-        top_p=0.92,
+        # top_p=0.92,
     )
 
     for n, output in enumerate(output_ids):
