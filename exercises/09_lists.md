@@ -96,7 +96,7 @@ print('str1:', str1, '   str2:', str2)
 
 list1 = ['a', 'nice', 'list']
 list2 = list1
-list1.append('really')
+list1 += ['really']   # list1.append('really') would be more Pythonic
 
 print('list1:', list1, '   list2:', list2)
 ```
