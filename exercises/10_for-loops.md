@@ -2,7 +2,7 @@
 
 ## 10. For-loops (`for`)
 
-Effort profile: `▁▁▁▁▁▂▁▂▁(▁)▂▂▂▁▂▂▁▂▂▄▅▄▅▂▄▅▁▂▁▂▄▅▁▂▂▂▁(▂)▂▄▅▁▄▅` 
+Effort profile: `▁▁▁▁▁▂▁▂▁(▁)▂▂▂▁▂▂▁▂▂▄▅▄▅▂▄▅▁▂▁▂▄▅▁▂▂▂▁(▂)▂▄▅▁▂` 
 
 
 
@@ -22,10 +22,9 @@ for name in names:
 
 **10.5.** What happens if the variable `name` already exists before executing the for-loop? (Perhaps this was already the case in the previous exercises.)
 
-**10.6.** ⭐ Write a function `print_multiple` that is given a list, and prints each element of the list, each on a new line.
+**10.6.** ⭐ Write a function `print_multiple` that is given a list, and prints each element of the list, each on a new line (try this without using the asterisk `*`, in case you are familiar with that already; see exercise 10.10 below).
 
 **10.7.** Can you predict what will happen if you accidentally do `print_multiple(name)` instead of `print_multiple(names)`? Test your prediction.
-
 
 **10.8.** ⭐ Write a function `print_multiple_oneline` that is given a list, and prints all list elements on a single line, concatenated with dashes in between. You can either first compose a long string and call `print` only once at the end, or use repeated `print` statements and control the layout with the help of its `end` parameter.
 
@@ -43,7 +42,7 @@ for name in names:
 **10.14.** Generalize the preceding function to allow changing the separator (e.g., dash, space, underscore) by giving the function an extra string parameter `sep`.
 
 - - - - - -
-**Something to keep in mind:** After defining a function, make sure to _test_ it thoroughly by calling it with various arguments. After verifying that it works, you can easily comment out (with `#`) the test function calls, while leaving the function definition itself untouched. This lets you conveniently work in a single file for all the exercises, without all the previous functions being called every time you test the latest function. Later we will learn how to separate the test calls from the function definitions.
+**Something to keep in mind:** After defining a function, make sure to _test_ it thoroughly by calling it with various arguments. After verifying that it works, you can easily comment out (with `#`) the various test function calls, while leaving the function definition itself untouched. This lets you conveniently work in a single file for all the exercises, without all the previous functions being called every time you test the latest function. Of course you can also put all test function calls in a separate function called, e.g., `test_everything`... Later we will learn some other methods.
 - - - - -
 
 **10.15.** ⭐ Can you use an if-clause within a for-loop? Write a function to count how many odd numbers are in a list, returning the result. <!-- tp3 -->
@@ -81,7 +80,7 @@ for i in some_numbers:
 ```
 
 
-**10.27.** ⭐ As we saw, the built-in function `max` can be applied to an entire list, to find the greatest value. But a good exercise is to implement a `max` function yourself (i.e., without using the built-in). Someone else has already tried this, but it doesn't quite work if the list contains only negative numbers. Can you fix it?
+**10.27.** ⭐ As we saw, the built-in function `max` can be applied to an entire list, to find the greatest value. But a good exercise is to implement a `max` function yourself (i.e., without using the built-in). Suppose someone else has already tried this with the code below, but it doesn't quite work if the list contains only negative numbers. Can you fix it?
 ```python
 def custom_max(numbers):
     greatest = 0
@@ -90,6 +89,7 @@ def custom_max(numbers):
             greatest = num
     return greatest
 ```
+
 
 **10.28.** ⭐⭐ Try to define a variant of the above function that finds the _2_ greatest values in a list.
 
@@ -112,6 +112,11 @@ def custom_max(numbers):
 
 **10.33.** List comprehensions were added to the language in the Python Enhancement Proposal **PEP202** (https://peps.python.org/pep-0202/) very early in Python's lifetime (2000). Have a look, and see if you recognize some of the rationale and the examples given.
 
+```python
+# Have a look yourself at https://peps.python.org/pep-0202/
+```
+
+
 **10.34.** ⭐ _[Optional, feel free to skip]_ The `... for ... in`-structure of list comprehensions is a so-called _generator expression_ (introduced as a generalization of list comprehension, in [PEP289](https://peps.python.org/pep-0289/). Generator expressions actually define an object in their own right. To see this, run the following code, and inspect the resulting object (e.g., `print`, `type`). (Without a 'container' context like a list `[...]`, generator expressions need to be surrounded by (round) parentheses lest you get a syntax error.)
 
 ```python
@@ -131,5 +136,5 @@ Can you loop over the created generator object as you would over an ordinary lis
 **10.37.** Why does readability matter, anyway? Isn't _correctness_ of code the thing that primarily matters? Consider this question especially from the perspective of using code for scientific research.
 
 
-**10.38.** ⭐⭐ Use list comprehension to write three functions that take two lists and compute (and return) their _union_, _intersection and _complement_, respectively (notions from set theory). (Later we will learn about Python's built-in `set` datastructure, which of course provides such operations already. Solving this exercise without those built-ins is excellent practice.)
+**10.38.** ⭐ _(NOTE: Slightly modified/clarified on March 15.)_ Write three functions that take two lists and compute (and return) their _union_, _intersection and _complement_, respectively (notions from set theory). (Later we will learn about Python's built-in `set` datastructure, which of course provides such operations already. Solving this exercise without those built-ins is excellent practice.) Since a set must not contain the same element twice, it may be useful to define an auxiliary function to deduplicate a list.
 
