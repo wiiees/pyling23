@@ -9,14 +9,21 @@
 
 
 ### Plan
-1. Homework discussion
-2. 'Bag of words' (2/2)
-3. Practical
+1. Quiz
+2. Homework discussion
+3. 'Bag of words' (2/2)
+4. Practical
 
 
 -------
 
-### 1. Homework for today
+### 1. Quiz
+
+The quiz will be handed out during class.
+
+-------
+
+### 2. Homework for today
 
 Exercises:
 - [Section 10. For-loops (for)](../exercises/10_for-loops.md): all exercises
@@ -27,16 +34,22 @@ And the following Coding Quest (✉️!):
 
 -------
 
-### 2. 'Bag of words' (2/2)
+### 3. 'Bag of words' (2/2)
 
-bag of words adventure
+Bag-of-words adventure!
 
+Part 1: 'feature engineering' to create a sentiment classifier.
+TODOs:
+- evaluation of our manual attempt.
+- split off data preprocessing; the .jsonl format, pandas.
+- train/test set division
+- adding some machine learning on top of our manual features: logistic regression.
 
-May include accuracy etc. here, and machine learning?
+Part 2: 'feature extraction' using bag-of-words.
 
 -------
 
-### 3. Practicum: homework for next time
+### 4. Practicum: homework for next time
 
 Exercises:
 - [Section 12. More practice with lists and loops (also index)](../exercises/12_more_lists_and_loops.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▄▅▁▁▂▄▅▁▁▂▂▂▂▁▁▁▂▁▁▁▁▁▁▂▄▅▁▁▄▅▁▁▂▂▂`)
