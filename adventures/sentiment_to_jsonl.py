@@ -3,6 +3,13 @@ import json
 
 """
 Reads the text files from the original sentiment dataset, and stores everything in a single .jsonl (json-lines) file.
+
+If you want to try this yourself, you need to download the dataset here:
+
+http://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz
+
+Unpack the file, place the pos and neg folders it contains in a folder data/sentiment, and run 
+the preprocessing script sentiment_to_jsonl.py . After that, you can run the current script.  
 """
 
 pos_dir = 'data/sentiment/pos'

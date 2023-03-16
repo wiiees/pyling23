@@ -7,7 +7,14 @@ import pandas
 
 """
 The result of part 2 of our slightly rushed bag-of-words adventure; next class will start with a recap and some
-refactoring. 
+refactoring.
+
+If you want to try this yourself, you need to download the dataset here:
+
+http://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz
+
+Unpack the file, place the pos and neg folders it contains in a folder data/sentiment, and run 
+the preprocessing script sentiment_to_jsonl.py . After that, you can run the current script.  
 """
 
 negative_words = ['awful', 'disgusting', 'shit', 'horrible', 'terrible']
