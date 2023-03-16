@@ -47,6 +47,8 @@ TODOs:
 
 Part 2: 'feature extraction' using bag-of-words.
 
+Note: The ending today was a bit rushed, so next class we will begin with a brief recap and some refactoring.
+
 -------
 
 ### 4. Practicum: homework for next time
