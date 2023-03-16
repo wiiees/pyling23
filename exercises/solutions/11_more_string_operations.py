@@ -102,16 +102,18 @@ names = '''#*John#*
 #* Chris#\t*'''
 
 def cleanup_from_pdf(string):
-    corrections = {
-        '0': 'O',
-        '4': 'A',
-        '5': 'S',
-    }
-    for key, target in corrections.items():
-        string = string.replace(key, target)
-    cleaned = [s.strip('#* \t,;') for s in string.split()]
-    cleaned = [s for s in cleaned if not s == '']
-    # Capitalize while respecting the dash (and two capitals) in Ann-Mary:
+    # later we would use a dictionary instead
+    # (you can also code these replacements manually instead of looping)
+    corrections = [
+        ['0', 'O'],
+        ['4', 'A'],
+        ['5', 'S'],
+    ]
+    for original, replacement in corrections:
+        string = string.replace(original, replacement)
+    
+    lines = string.split('\n')
+    cleaned = [s.strip('#* \t,;') for s in lines]    # Capitalize while respecting the dash (and two capitals) in Ann-Mary:
     cleaned = ['-'.join([s.capitalize() for s in n.split('-')]) for n in cleaned]   # this is arguably too complex for a single line...
     return cleaned
 
