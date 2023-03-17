@@ -13,5 +13,5 @@
 
 **C.4.** Write a function that combines the foregoing: it takes a text as input, separates it into sentences, and then separates each sentence into words. Altogether, the result should be a _list of lists of strings_, each inner list representing a sentence split into words. 
 
-**C.5.** ⭐ Apply your tokenizer to a reasonable large text, e.g., copied from a website or e-book. For now, you can simply copy this text into your Python script and assign it to a variable (recall you can use triple quotation marks to define multi-line strings); we will learn better ways to read files into Python later. Manually inspect the outcome of your word and sentence tokenizer to identify any shortcomings, and try to fix (some of) them.
+**C.5.** ⭐ Apply your tokenizer to a reasonably large text, e.g., copied from a website or e-book. (For now, you can simply copy-paste this text into your Python script and assign it to a variable (recall you can use triple quotation marks to define multi-line strings); we will learn better ways to read files into Python later.) Manually inspect the outcome of your word and sentence tokenizer to identify any shortcomings, and try to fix (some of) them.
 
