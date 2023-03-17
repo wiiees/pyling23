@@ -151,7 +151,7 @@ print('Result of version B:', sum_of_squares_B(9999))
 
 **21.25.** Perhaps you know how to inspect memory usage with a tool in your operating system (e.g., 'system monitor' or 'resource monitor'). But you can also do it within Python itself, e.g., in Section 14 we did `import sys` and used `sys.getsizeof` to obtain the memory size of a particular object. Use this to compare the size of `squares` in versions A and B in the above example.
 
-**21.26.** ⭐ We have seen before that we can read a file in different ways. Which of the following functions, for collecting all words containing the vowel group 'ea', is more space-efficient? (You can verify your understanding using `tracemalloc` if you want, if you happen to have a sufficiently large text file lying around.)
+**21.26.** ⭐ We have seen before that we can read a file in different ways. Which of the following functions, for collecting all words containing the vowel group 'ea', is more space-efficient? (You can verify your understanding by applying `sys.getsizeof` to some of the objects.)
 ```python
 # Version A
 def find_ea_words_A(path):
@@ -165,7 +165,7 @@ def find_ea_words_A(path):
 
 # Version B
 def find_ea_words_B(path):
-    with open('some_big_file.txt') as file:
+    with open(path) as file:
         words_containing_ea = []
         for line in file:
             for word in line.split():
@@ -173,8 +173,8 @@ def find_ea_words_B(path):
                     words_containing_ea.append(word)
     return words_containing_ea
 
-find_ea_words_A('some_big_file.txt')
-find_ea_words_B('some_big_file.txt')
+find_ea_words_A('data/alice.txt')    # make sure to choose some existing file here
+find_ea_words_B('data/alice.txt')
 ```
 
 **21.27.** Is the `file` object in the above code an iterator, or is it only an iterable? Can you verify this by calling `type` on it, or is there a better way (this relates to Python's 'duck typing')?
