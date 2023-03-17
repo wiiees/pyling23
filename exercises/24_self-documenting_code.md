@@ -2,7 +2,7 @@
 
 ## 24. Self-documenting code
 
-Effort profile: `(▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▂▂▁▄▅▄▅)` 
+Effort profile: `(▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▂▂▁▅▅)` 
 
 
 

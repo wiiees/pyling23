@@ -2,7 +2,7 @@
 
 ## 11. More string operations (`split`/`join`, `strip`)
 
-Effort profile: `▄▅▂▁▁▂▁▂▄▅▂▄▅▁▂▂` 
+Effort profile: `▅▂▁▁▂▁▂▅▂▅▁▂▂` 
 
 
 

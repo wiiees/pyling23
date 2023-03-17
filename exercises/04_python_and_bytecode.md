@@ -12,6 +12,7 @@ Effort profile: `(▁▁▁▁▂▂▁▂▂)`
 ----
 
 
+
 **4.1.** Write Python code that assigns one string to one variable, another string to another variable, and then prints their concatenation.
 
 **4.2.** Python code is itself text, hence you can also, within a Python program, create a string that contains Python code. Create such a string containing the block of code you wrote for the previous exercise, and assign it to a variable `my_python_code`. (Do you remember how to create a multi-line string?)

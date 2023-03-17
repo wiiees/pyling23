@@ -2,7 +2,7 @@
 
 ## 22. Sets and vocabularies (`set`)
 
-Effort profile: `▁▁▁▁▁▁▂▁▁▁▁▄▅▁▂▂▁▂` 
+Effort profile: `▁▁▁▁▁▁▂▁▁▁▁▅▁▂▂▁▂` 
 
 
 

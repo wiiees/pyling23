@@ -39,13 +39,13 @@ And the following Coding Quest (✉️!):
 **For the coming week (no class):**
 
 Exercises:
-- [Section 28. Advanced text processing](../exercises/28_advanced_text_processing.md): exercises 22-33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▄▅▂▂▁▄▅▄▅▁▂▁▄▅`)
+- [Section 28. Advanced text processing](../exercises/28_advanced_text_processing.md): exercises 22-33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▅▂▂▁▅▅▁▂▁▅`)
 - _(Optional)_ [Section 29. Smarter iteration with zip and enumerate](../exercises/29_zip_and_enumerate.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`(▁▁▂▁▁▁▁▁▁▁▂▁▂▂▁▁▁▁▁▂▂▂)`)
 
 And at least one of the following Coding Quests (✉️!):
-- [Quest Q. Gender bias](../quests/Q_gender_bias.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▄▅`)
+- [Quest Q. Gender bias](../quests/Q_gender_bias.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▅`)
 - [Quest R. Similarity](../quests/R_similarity.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁`)
-- [Quest S. Question extraction and classification](../quests/S_question_extraction_and_classification.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁█▄▅▂▂▁`)
+- [Quest S. Question extraction and classification](../quests/S_question_extraction_and_classification.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁█▅▂▂▁`)
 
 **And for the week after that:**
 

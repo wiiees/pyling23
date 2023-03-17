@@ -2,7 +2,7 @@
 
 ## 8. Defining and calling functions (`def`, `return`)
 
-Effort profile: `▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▄▅▁▁▂▂▂▁▁▁▁▁▁▁▂▁▂▂▁█▁▁▁▁▂▂▂▁▁▁` 
+Effort profile: `▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▅▁▁▂▂▂▁▁▁▁▁▁▁▂▁▂▂▁█▁▁▁▁▂▂▂▁▁▁` 
 
 
 

@@ -2,7 +2,7 @@
 
 ## 7. If-clauses (`if`, `elif`, `else`)
 
-Effort profile: `▁▁▁▁▁▁▁▂▁▂▁▁▂▁▁▁▁▄▅▂▁▁▁▁▂▁▁▂▁▂▄▅` 
+Effort profile: `▁▁▁▁▁▁▁▂▁▂▁▁▂▁▁▁▁▅▂▁▁▁▁▂▁▁▂▁▂▅` 
 
 
 

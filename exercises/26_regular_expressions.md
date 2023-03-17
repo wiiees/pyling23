@@ -2,7 +2,7 @@
 
 ## 26. Regular expressions (searching for patterns) 
 
-Effort profile: `▁▁▁▂▄▅▂▁▂▁▁▁▂▁▂▁▁▁▁▂▁▂▁▁▁▁▂▁▄▅▂▂▂▁▁▁` 
+Effort profile: `▁▁▁▂▅▂▁▂▁▁▁▂▁▂▁▁▁▁▂▁▂▁▁▁▁▂▁▅▂▂▂▁▁▁` 
 
 
 

@@ -2,7 +2,7 @@
 
 ## 25. Sorting (`sort`, `sorted`, `lambda`)
 
-Effort profile: `▁▁▄▅▁▁▂▂▁▁▁▁▂▁▄▅▂▁▁▁▁▁▂▁▁` 
+Effort profile: `▁▁▅▁▁▂▂▁▁▁▁▂▁▅▂▁▁▁▁▁▂▁▁` 
 
 
 

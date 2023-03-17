@@ -2,7 +2,7 @@
 
 ## 23. Quantifiers and counters (`any`, `all`, `Counter`)
 
-Effort profile: `▁▁▁▁▂▁▁▁▁▂▂▂▁▁▄▅▁▁▂▁▂▁▁▁▁▁▁▁▄▅` 
+Effort profile: `▁▁▁▁▂▁▁▁▁▂▂▂▁▁▅▁▁▂▁▂▁▁▁▁▁▁▁▅` 
 
 
 

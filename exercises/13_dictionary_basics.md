@@ -2,7 +2,7 @@
 
 ## 13. Dictionary basics
 
-Effort profile: `▁▁▁▁▁▁▁▁▂▁▁▁▂▁▁▁▁▂▁▄▅` 
+Effort profile: `▁▁▁▁▁▁▁▁▂▁▁▁▂▁▁▁▁▂▁▅` 
 
 
 **13.1.** Run the code below to construct `name_to_id`, a mapping or _dictionary_ from fictional student names (the _keys_) to student IDs (the _values_). Then inspect the object you created by printing `name_to_id`, as well as `type(name_to_id)`.

@@ -44,9 +44,9 @@ And the following Coding Quest (✉️!):
 Exercises:
 - [Section 16. Encapsulation and variable scope](../exercises/16_encapsulation_and_variable_scope.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▂▁▁▁▂▁▁▁▁▂▁▁▁▁▁▁▁▁▂▂▁▁▂▁█`)
 - _(Optional)_ [Section 17. Modules (import, __name__)](../exercises/17_modules_and_import.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`(▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁)`)
-- [Section 18. Dictionaries advanced](../exercises/18_dictionaries_advanced.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▂▁▁▁▂▁▁▂▂▁▄▅▁▁▁▁▂▁▁▁▂▁▁▁▂▁▂▂▁▁`)
+- [Section 18. Dictionaries advanced](../exercises/18_dictionaries_advanced.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▁▂▁▁▁▂▁▁▂▂▁▅▁▁▁▁▂▁▁▁▂▁▁▁▂▁▂▂▁▁`)
 
 And at least one of the following Coding Quests (✉️!):
-- [Quest H. Zipf's law](../quests/H_zipf's_law.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▄▅▁▁▂▄▅`)
-- [Quest I. Translation](../quests/I_translation.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▄▅▂▂▁`)
+- [Quest H. Zipf's law](../quests/H_zipf's_law.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▅▁▁▂▅`)
+- [Quest I. Translation](../quests/I_translation.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▅▂▂▁`)
 

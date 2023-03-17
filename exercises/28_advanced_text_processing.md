@@ -2,7 +2,7 @@
 
 ## 28. Advanced text processing
 
-Effort profile: `▂▂▁▁▁▁▂▂▁▁▁▁▂▂▄▅▂▂▂▂▁▁▄▅▂▄▅▂▂▁▄▅▄▅▁▂▁▄▅` 
+Effort profile: `▂▂▁▁▁▁▂▂▁▁▁▁▂▂▅▂▂▂▂▁▁▅▂▅▂▂▁▅▅▁▂▁▅` 
 
 
 

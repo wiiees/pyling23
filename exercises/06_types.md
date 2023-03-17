@@ -2,7 +2,7 @@
 
 ## 6. Types (`type`, and `int`, `str`, ..., also `help`, `dir`)
 
-Effort profile: `▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▂▁▁▁▁▁▂▁▁▁▄▅▂▂▂` 
+Effort profile: `▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▂▁▁▁▁▁▂▁▁▁▅▂▂▂` 
 
 
 

@@ -2,7 +2,7 @@
 
 ## 14. Looping over ranges (`range`)
 
-Effort profile: `▁▁▂▁▁▁▂▂▁▂▄▅▂▄▅▄▅▄▅▁▁(▄▅)▂▁▁▁▁█` 
+Effort profile: `▁▁▂▁▁▁▂▂▁▂▅▂▅▅▅▁▁(▅)▂▁▁▁▁█` 
 
 
 

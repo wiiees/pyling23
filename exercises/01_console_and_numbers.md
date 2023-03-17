@@ -2,7 +2,7 @@
 
 ## 1. The Python Console, numbers and variables (`=`, `+`, `%`, ...)
 
-Effort profile: `▂▁▁▁▁▁▁▁▂▁▁▁▁▁▁▂▁▁▁▁▁▄▅▁▂▂▁▂▁▄▅▁▁▂` 
+Effort profile: `▂▁▁▁▁▁▁▁▂▁▁▁▁▁▁▂▁▁▁▁▁▅▁▂▂▁▂▁▅▁▁▂` 
 
 
 

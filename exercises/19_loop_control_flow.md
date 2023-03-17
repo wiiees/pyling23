@@ -2,7 +2,7 @@
 
 ## 19. Loop control flow (`break`, `while`, `continue`)
 
-Effort profile: `▁▂▁▁▄▅▁▂▁▁▁▁▁▄▅▂▂▁▁▁▁█▁▁▂▁▂▁▁▁▁▁▁▁▄▅▁▄▅▂▂` 
+Effort profile: `▁▂▁▁▅▁▂▁▁▁▁▁▅▂▂▁▁▁▁█▁▁▂▁▂▁▁▁▁▁▁▁▅▁▅▂▂` 
 
 
 

@@ -2,7 +2,7 @@
 
 ## 18. Dictionaries advanced
 
-Effort profile: `▁▁▁▂▁▁▁▂▁▁▂▂▁▄▅▁▁▁▁▂▁▁▁▂▁▁▁▂▁▂▂▁▁` 
+Effort profile: `▁▁▁▂▁▁▁▂▁▁▂▂▁▅▁▁▁▁▂▁▁▁▂▁▁▁▂▁▂▂▁▁` 
 
 
 

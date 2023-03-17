@@ -2,7 +2,7 @@
 
 ## 20. Reading and writing files (`read`/`write`)
 
-Effort profile: `▁▁▂▁▁▁▁▁▁▂▁▂▁▁▁▁▄▅▁▁▁▁▁▁▁▁▁▄▅▁▁▁▂▁▁▄▅▁▂` 
+Effort profile: `▁▁▂▁▁▁▁▁▁▂▁▂▁▁▁▁▅▁▁▁▁▁▁▁▁▁▅▁▁▁▂▁▁▅▁▂` 
 
 
 

@@ -89,9 +89,9 @@ Study for midterm
 **And for the week after that:**
 
 Exercises:
-- [Section 14. Looping over ranges (range)](../exercises/14_looping_over_ranges.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▂▁▁▁▂▂▁▂▄▅▂▄▅▄▅▄▅▁▁(▄▅)▂▁▁▁▁█`)
-- [Section 15. Function parameters and arguments](../exercises/15_function_parameters_and_arguments.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▁▁▂▂▁▂▁▁▁▁▂▁▁▁▁▂(▄▅▁)▁▂▁▁▂█▁▂▁▁▁▂▁▁▁▄▅▁▂`)
+- [Section 14. Looping over ranges (range)](../exercises/14_looping_over_ranges.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▁▂▁▁▁▂▂▁▂▅▂▅▅▅▁▁(▅)▂▁▁▁▁█`)
+- [Section 15. Function parameters and arguments](../exercises/15_function_parameters_and_arguments.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁▁▁▂▂▁▂▁▁▁▁▂▁▁▁▁▂(▅▁)▁▂▁▁▂█▁▂▁▁▁▂▁▁▁▅▁▂`)
 
 And the following Coding Quest (✉️!):
-- [Quest G. n-grams](../quests/G_n-grams.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▄▅▂▁▂▄▅▁`)
+- [Quest G. n-grams](../quests/G_n-grams.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▅▂▁▂▅▁`)
 

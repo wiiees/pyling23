@@ -38,8 +38,8 @@ And at least one of the following Coding Quests (✉️!):
 ### 3. Practicum: homework for next time
 
 Exercises:
-- [Section 19. Loop control flow (break, while, continue)](../exercises/19_loop_control_flow.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▁▄▅▁▂▁▁▁▁▁▄▅▂▂▁▁▁▁█▁▁▂▁▂▁▁▁▁▁▁▁▄▅▁▄▅▂▂`)
-- [Section 20. Reading and writing files (read/write)](../exercises/20_reading_and_writing_files.md): exercises 1-33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▁▁▁▁▁▂▁▂▁▁▁▁▄▅▁▁▁▁▁▁▁▁▁▄▅▁▁▁▂▁▁▄▅`)
+- [Section 19. Loop control flow (break, while, continue)](../exercises/19_loop_control_flow.md): all exercises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▁▅▁▂▁▁▁▁▁▅▂▂▁▁▁▁█▁▁▂▁▂▁▁▁▁▁▁▁▅▁▅▂▂`)
+- [Section 20. Reading and writing files (read/write)](../exercises/20_reading_and_writing_files.md): exercises 1-33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▁▂▁▁▁▁▁▁▂▁▂▁▁▁▁▅▁▁▁▁▁▁▁▁▁▅▁▁▁▂▁▁▅`)
 
 And the following Coding Quest (✉️!):
 - [Quest J. Implement the game 'Semantle'](../quests/J_implement_the_game_'semantle'.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (`▂▁█`)

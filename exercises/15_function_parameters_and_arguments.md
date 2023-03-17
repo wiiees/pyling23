@@ -2,7 +2,7 @@
 
 ## 15. Function parameters and arguments
 
-Effort profile: `▂▁▁▁▂▂▁▂▁▁▁▁▂▁▁▁▁▂(▄▅▁)▁▂▁▁▂█▁▂▁▁▁▂▁▁▁▄▅▁▂` 
+Effort profile: `▂▁▁▁▂▂▁▂▁▁▁▁▂▁▁▁▁▂(▅▁)▁▂▁▁▂█▁▂▁▁▁▂▁▁▁▅▁▂` 
 
 
 

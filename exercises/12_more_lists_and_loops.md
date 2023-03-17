@@ -2,7 +2,7 @@
 
 ## 12. More practice with lists and loops (also `index`)
 
-Effort profile: `▄▅▁▁▂▄▅▁▁▂▂▂▂▁▁▁▂▁▁▁▁▁▁▂▄▅▁▁▄▅▁▁▂▂▂` 
+Effort profile: `▅▁▁▂▅▁▁▂▂▂▂▁▁▁▂▁▁▁▁▁▁▂▅▁▁▅▁▁▂▂▂` 
 
 
 

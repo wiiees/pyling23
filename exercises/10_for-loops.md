@@ -2,7 +2,7 @@
 
 ## 10. For-loops (`for`)
 
-Effort profile: `▁▁▁▁▁▂▁▂▁(▁)▂▂▂▁▂▂▁▂▂▄▅▄▅▂▄▅▁▂▁▂▄▅▁▂▂▂▁(▂)▂▄▅▁▂` 
+Effort profile: `▁▁▁▁▁▂▁▂▁(▁)▂▂▂▁▂▂▁▂▂▅▅▂▅▁▂▁▂▅▁▂▂▂▁(▂)▂▅▁▂` 
 
 
 
@@ -136,5 +136,5 @@ Can you loop over the created generator object as you would over an ordinary lis
 **10.37.** Why does readability matter, anyway? Isn't _correctness_ of code the thing that primarily matters? Consider this question especially from the perspective of using code for scientific research.
 
 
-**10.38.** ⭐ _(NOTE: Slightly modified/clarified on March 15.)_ Write three functions that take two lists and compute (and return) their _union_, _intersection and _complement_, respectively (notions from set theory). (Later we will learn about Python's built-in `set` datastructure, which of course provides such operations already. Solving this exercise without those built-ins is excellent practice.) Since a set must not contain the same element twice, it may be useful to define an auxiliary function to deduplicate a list.
+**10.38.** ⭐ Write three functions that take two lists and compute (and return) their _union_, _intersection and _complement_, respectively (notions from set theory). (Later we will learn about Python's built-in `set` datastructure, which of course provides such operations already. Solving this exercise without those built-ins is excellent practice.) Since a set must not contain the same element twice, it may be useful to define an auxiliary function to deduplicate a list.
 

@@ -2,7 +2,7 @@
 
 ## 21. Iterators, generators, and memory usage
 
-Effort profile: `(▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▂▄▅▁▂▁▂▁▂)` 
+Effort profile: `(▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▂▅▁▂▁▂▁▂)` 
 
 
 
