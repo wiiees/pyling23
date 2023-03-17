@@ -173,8 +173,8 @@ def find_ea_words_B(path):
                     words_containing_ea.append(word)
     return words_containing_ea
 
-find_ea_words_A('data/alice.txt')    # make sure to choose some existing file here
-find_ea_words_B('data/alice.txt')
+find_ea_words_A('../data/alice.txt')    # make sure to choose some existing file here
+find_ea_words_B('../data/alice.txt')
 ```
 
 **21.27.** Is the `file` object in the above code an iterator, or is it only an iterable? Can you verify this by calling `type` on it, or is there a better way (this relates to Python's 'duck typing')?
