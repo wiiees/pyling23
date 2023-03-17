@@ -12,7 +12,7 @@
 <details><summary>Only reveal this once you have answered exercise D.1!</summary>
 
 ```python
-the = ['the', []]       # leave nodes have an empty list of children
+the = ['the', []]       # leaf nodes have an empty list of children
 det = ['Det', [the]]
 student = ['student', []]
 n = ['N', [student]]
