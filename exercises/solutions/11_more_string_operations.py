@@ -101,6 +101,12 @@ names = '''#*John#*
 #*Bob#\t*;
 #* Chris#\t*'''
 
+worse_names = '''#*T0DD#*
+#*0NA# *,
+*#*SUE#*,
+#*ANN-M4RY#\t*;
+#* R0S5#\t*'''
+
 def cleanup_from_pdf(string):
     # later we would use a dictionary instead
     # (you can also code these replacements manually instead of looping)
@@ -113,18 +119,26 @@ def cleanup_from_pdf(string):
         string = string.replace(original, replacement)
     
     lines = string.split('\n')
-    cleaned = [s.strip('#* \t,;') for s in lines]    # Capitalize while respecting the dash (and two capitals) in Ann-Mary:
-    cleaned = ['-'.join([s.capitalize() for s in n.split('-')]) for n in cleaned]   # this is arguably too complex for a single line...
-    return cleaned
+    cleaned = [s.strip('#* \t,;') for s in lines]
+    
+    # Capitalize while respecting the dash (and two capitals) in Ann-Mary
+    # This was a bit too complex for a single line, so I defined an auxilary function (see below)
+    capitalized = [capitalize_name(n) for n in cleaned]
+    
+    return capitalized
+
+
+def capitalize_name(n):
+    """
+    For capitalizing double names like Ann-Mary
+    """
+    name_parts = n.split('-')
+    capitalized_name_parts = [s.capitalize() for s in name_parts]
+    capitalized_name = '-'.join(capitalized_name_parts)
+    return capitalized_name
+
 
 print(cleanup_from_pdf(names))
-
-worse_names = '''#*T0DD#*
-#*0NA# *,
-*#*SUE#*,
-#*ANN-M4RY#\t*;
-#* R0S5#\t*'''
-
 print(cleanup_from_pdf(worse_names))
 
 
