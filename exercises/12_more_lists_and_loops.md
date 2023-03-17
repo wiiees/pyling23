@@ -114,7 +114,9 @@ for city in cities:
 
 **12.30.** ⭐ Extend your clockwise and counterclockwise functions to deal with four diagonal directions (such as North-East `NE` and South-West `SW`). If this is difficult or requires a lot of manual typing, it means your functions could probably have been implemented in a smarter, more concise way...
 
-**12.31.** ⭐ If there is still considerably overlap between the two functions, `turn_clockwise` and `turn_counterclockwise`, try to minimize this (remember DRY? remember why?), for instance by redefining each as a special case of a more general function `turn` that can turn in both directions...
+**12.31.** ⭐ If there is still considerable overlap between the two functions, `turn_clockwise` and `turn_counterclockwise`, try to minimize this, for instance by redefining each as a special case of a more general function `turn` that can turn in both directions...
+
+
 
 
 
