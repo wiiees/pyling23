@@ -9,14 +9,21 @@
 
 
 ### Plan
-1. Homework discussion
-2. Variable roles and data structures (& recap)
-3. Practical
+1. Quiz
+2. Homework discussion
+3. Class notes
+4. Practical
 
 
 -------
 
-### 1. Homework for today
+### 1. Quiz
+
+The quiz will be handed out during class.
+
+-------
+
+### 2. Homework for today
 
 Exercises:
 - [Section 12. More practice with lists and loops (also index)](../exercises/12_more_lists_and_loops.md): all exercises
@@ -29,7 +36,14 @@ And at least one of the following Coding Quests (✉️!):
 
 -------
 
-### 2. Variable roles and data structures (& recap)
+### 3. Class notes
+
+#### Recap & refactoring of the bag-of-words/sentiment adventure
+
+
+#### Homework discussion
+
+Maybe also Quest B (week 5).
 
 
 #### Roles of variables
@@ -38,7 +52,7 @@ And at least one of the following Coding Quests (✉️!):
 
 From Hermans (2020) _The Programmer's Brain_ (https://www.universiteitleiden.nl/en/research/research-output/science/the-programmers-brain).
 See also e.g. _An Experiment on Using Roles of Variables in Teaching Introductory Programming_ (https://www.tandfonline.com/doi/pdf/10.1080/08993400500056563).
-s
+
 ```python
 upper_bound = 10                   
 sum_of_squares = 0                  
@@ -80,7 +94,7 @@ for number in numbers:
 
 -------
 
-### 3. Practicum: homework for next time
+### 4. Practicum: homework for next time
 
 **For the coming week (no class):**
 
