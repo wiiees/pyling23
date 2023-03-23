@@ -46,7 +46,7 @@ def train_model(X, y):
     """
     Returns a logistic regression model using the features n_pos and n_neg.
     """
-    model = linear_model.LogisticRegression()
+    model = linear_model.LogisticRegression(max_iter=1000)
     model.fit(X, y)
 
     return model
@@ -76,24 +76,35 @@ def main():
     add_features(reviews)
     train, test = train_test_split(reviews)
 
-    logreg_posneg = train_model(train[['n_pos', 'n_neg']], train['sentiment'])
-    logreg_wordlists = train_model(train[word_features], train['sentiment'])
+    posneg_model = train_model(train[['n_pos', 'n_neg']], train['sentiment'])
+    wordlists_model = train_model(train[word_features], train['sentiment'])
+
+    count_vectorizer = CountVectorizer(max_features=1000)
+    bow_train = count_vectorizer.fit_transform(train['text'])
+    bow_test = count_vectorizer.transform(test['text'])
+    bow_model = train_model(bow_train, train['sentiment'])
+
 
     test['handcrafted_prediction'] = [handcrafted_model(text) for text in test['text']]
-    test['posneg_prediction'] = logreg_posneg.predict(test[['n_pos', 'n_neg']])
-    test['wordlists_prediction'] = logreg_wordlists.predict(test[[f'n_{word}' for word in positive_words + negative_words]])
+    test['posneg_prediction'] = posneg_model.predict(test[['n_pos', 'n_neg']])
+    test['wordlists_prediction'] = wordlists_model.predict(test[[f'n_{word}' for word in positive_words + negative_words]])
+    test['bow_prediction'] = bow_model.predict(bow_test)
 
-    print(test.head(5).to_string())
 
     basic_model_scores = evaluate(test['handcrafted_prediction'], test['sentiment'])
     sma_model_scores = evaluate(test['posneg_prediction'], test['sentiment'])
     ema_model_scores = evaluate(test['wordlists_prediction'], test['sentiment'])
+    bow_model_scores = evaluate(test['bow_prediction'], test['sentiment'])
 
     print(basic_model_scores)
     print(sma_model_scores)
     print(ema_model_scores)
+    print(bow_model_scores)
 
-    for word, coefficient in zip(positive_words + negative_words, logreg_wordlists.coef_.squeeze()):
+    # for word, coefficient in zip(positive_words + negative_words, logreg_wordlists.coef_.squeeze()):
+    #     print(word, coefficient)
+
+    for word, coefficient in sorted(zip(count_vectorizer.get_feature_names_out(), bow_model.coef_.squeeze()), key=lambda x: x[1], reverse=True):
         print(word, coefficient)
 
 
